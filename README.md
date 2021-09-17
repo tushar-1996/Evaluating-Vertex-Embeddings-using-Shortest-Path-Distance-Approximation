@@ -1,4 +1,4 @@
-# Shortest Path Distance Approximation Group
+# Shortest Path Distance Approximation
 
 ## Project Structure
 The project structure of our group work is as depicted in the following tree structure.
