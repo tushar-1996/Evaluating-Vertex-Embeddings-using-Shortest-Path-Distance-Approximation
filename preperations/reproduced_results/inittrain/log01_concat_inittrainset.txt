@@ -1,0 +1,35 @@
+Epoch 1/15
+22371/22371 - 51s - loss: 0.2245 - mae: 0.3453 - val_loss: 0.1602 - val_mae: 0.2833
+Epoch 2/15
+22371/22371 - 48s - loss: 0.1213 - mae: 0.2592 - val_loss: 0.1458 - val_mae: 0.2685
+Epoch 3/15
+22371/22371 - 48s - loss: 0.1052 - mae: 0.2395 - val_loss: 0.1303 - val_mae: 0.2511
+Epoch 4/15
+22371/22371 - 48s - loss: 0.0966 - mae: 0.2270 - val_loss: 0.1392 - val_mae: 0.2631
+Epoch 5/15
+22371/22371 - 48s - loss: 0.0895 - mae: 0.2147 - val_loss: 0.1357 - val_mae: 0.2535
+Epoch 6/15
+22371/22371 - 49s - loss: 0.0852 - mae: 0.2063 - val_loss: 0.1317 - val_mae: 0.2457
+Epoch 7/15
+22371/22371 - 48s - loss: 0.0818 - mae: 0.1999 - val_loss: 0.1528 - val_mae: 0.2618
+Epoch 8/15
+22371/22371 - 49s - loss: 0.0795 - mae: 0.1961 - val_loss: 0.1587 - val_mae: 0.2648
+Epoch 9/15
+22371/22371 - 49s - loss: 0.0781 - mae: 0.1932 - val_loss: 0.1607 - val_mae: 0.2626
+Epoch 10/15
+22371/22371 - 49s - loss: 0.0767 - mae: 0.1911 - val_loss: 0.1746 - val_mae: 0.2753
+Epoch 11/15
+22371/22371 - 48s - loss: 0.0758 - mae: 0.1895 - val_loss: 0.1705 - val_mae: 0.2601
+Epoch 12/15
+22371/22371 - 48s - loss: 0.0754 - mae: 0.1885 - val_loss: 0.1684 - val_mae: 0.2617
+Epoch 13/15
+22371/22371 - 48s - loss: 0.0745 - mae: 0.1873 - val_loss: 0.1744 - val_mae: 0.2778
+Epoch 14/15
+22371/22371 - 49s - loss: 0.0738 - mae: 0.1863 - val_loss: 0.1767 - val_mae: 0.2698
+Epoch 15/15
+22371/22371 - 48s - loss: 0.0732 - mae: 0.1854 - val_loss: 0.1825 - val_mae: 0.2715
+<keras.callbacks.History at 0x7f77086e6050>
+
+RMSE: 0.41576657525141675 MAE: 0.1724435796250159 (paper: 0.258) 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978

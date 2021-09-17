@@ -1,0 +1,1688 @@
+Params for Embeddings:  {'layer_config': [403, 128]}  with embedding type:  sdne
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 68s - loss: 0.6481 - mae: 0.6275 - val_loss: 0.7682 - val_mae: 0.6825
+Epoch 2/15
+22371/22371 - 67s - loss: 0.6118 - mae: 0.6005 - val_loss: 0.7465 - val_mae: 0.6641
+Epoch 3/15
+22371/22371 - 67s - loss: 0.5718 - mae: 0.5616 - val_loss: 0.7322 - val_mae: 0.6388
+Epoch 4/15
+22371/22371 - 58s - loss: 0.5234 - mae: 0.5256 - val_loss: 0.6984 - val_mae: 0.6227
+Epoch 5/15
+22371/22371 - 58s - loss: 0.4870 - mae: 0.5010 - val_loss: 0.7382 - val_mae: 0.6169
+Epoch 6/15
+22371/22371 - 58s - loss: 0.4569 - mae: 0.4806 - val_loss: 0.7115 - val_mae: 0.6166
+Epoch 7/15
+22371/22371 - 68s - loss: 0.4360 - mae: 0.4676 - val_loss: 0.6844 - val_mae: 0.6082
+Epoch 8/15
+22371/22371 - 67s - loss: 0.4195 - mae: 0.4558 - val_loss: 0.6712 - val_mae: 0.5921
+Epoch 9/15
+22371/22371 - 58s - loss: 0.4117 - mae: 0.4501 - val_loss: 0.7011 - val_mae: 0.6140
+Epoch 10/15
+22371/22371 - 68s - loss: 0.4030 - mae: 0.4438 - val_loss: 0.7409 - val_mae: 0.6027
+Epoch 11/15
+22371/22371 - 67s - loss: 0.3969 - mae: 0.4387 - val_loss: 0.7585 - val_mae: 0.6202
+Epoch 12/15
+22371/22371 - 68s - loss: 0.3917 - mae: 0.4354 - val_loss: 0.7932 - val_mae: 0.6252
+Epoch 13/15
+22371/22371 - 58s - loss: 0.3837 - mae: 0.4292 - val_loss: 0.7318 - val_mae: 0.6196
+Epoch 14/15
+22371/22371 - 58s - loss: 0.3808 - mae: 0.4272 - val_loss: 0.7279 - val_mae: 0.6053
+Epoch 15/15
+22371/22371 - 68s - loss: 0.3765 - mae: 0.4236 - val_loss: 0.6998 - val_mae: 0.6073
+
+
+RMSE: 0.6860781526585743 MAE: 0.3789576097037589 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.662605
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.         0.9325354  0.56363825 0.5759182  0.61576041 0.72380952]
+Recall: 	 [0.         0.60809544 0.77395872 0.71170181 0.41730243 0.04542738]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.         0.73615367 0.65226335 0.6366506  0.4974689  0.08548931]
+Params for Embeddings:  {'layer_config': [403, 201, 128]}  with embedding type:  sdne
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 58s - loss: 0.6712 - mae: 0.6422 - val_loss: 0.7834 - val_mae: 0.6917
+Epoch 2/15
+22371/22371 - 68s - loss: 0.6406 - mae: 0.6226 - val_loss: 0.7775 - val_mae: 0.6880
+Epoch 3/15
+22371/22371 - 67s - loss: 0.6309 - mae: 0.6137 - val_loss: 0.7874 - val_mae: 0.6814
+Epoch 4/15
+22371/22371 - 69s - loss: 0.6124 - mae: 0.5954 - val_loss: 0.7439 - val_mae: 0.6603
+Epoch 5/15
+22371/22371 - 68s - loss: 0.5839 - mae: 0.5738 - val_loss: 0.7255 - val_mae: 0.6541
+Epoch 6/15
+22371/22371 - 58s - loss: 0.5594 - mae: 0.5555 - val_loss: 0.7182 - val_mae: 0.6246
+Epoch 7/15
+22371/22371 - 57s - loss: 0.5417 - mae: 0.5424 - val_loss: 0.7202 - val_mae: 0.6454
+Epoch 8/15
+22371/22371 - 68s - loss: 0.5282 - mae: 0.5327 - val_loss: 0.6932 - val_mae: 0.6367
+Epoch 9/15
+22371/22371 - 68s - loss: 0.5180 - mae: 0.5241 - val_loss: 0.6897 - val_mae: 0.6462
+Epoch 10/15
+22371/22371 - 67s - loss: 0.5078 - mae: 0.5161 - val_loss: 0.7306 - val_mae: 0.6437
+Epoch 11/15
+22371/22371 - 67s - loss: 0.5004 - mae: 0.5102 - val_loss: 0.7511 - val_mae: 0.6458
+Epoch 12/15
+22371/22371 - 67s - loss: 0.4949 - mae: 0.5059 - val_loss: 0.7413 - val_mae: 0.6502
+Epoch 13/15
+22371/22371 - 67s - loss: 0.4884 - mae: 0.5007 - val_loss: 0.7270 - val_mae: 0.6300
+Epoch 14/15
+22371/22371 - 68s - loss: 0.4852 - mae: 0.4976 - val_loss: 0.6947 - val_mae: 0.6104
+Epoch 15/15
+22371/22371 - 67s - loss: 0.4811 - mae: 0.4943 - val_loss: 0.7032 - val_mae: 0.6270
+
+
+RMSE: 0.6962279154834452 MAE: 0.3979886886468203 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.641583
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.96024019 0.52961106 0.53601752 0.57099698 1.        ]
+Recall: 	 [0.63340833 0.88358217 0.50690952 0.08161796 0.01315003]
+F1 score: 	 [0.76331027 0.66226597 0.52105732 0.14282116 0.0259587 ]
+Params for Embeddings:  {'layer_config': [4039, 2019, 128]}  with embedding type:  sdne
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 58s - loss: 0.6903 - mae: 0.6542 - val_loss: 0.7635 - val_mae: 0.6719
+Epoch 2/15
+22371/22371 - 68s - loss: 0.6244 - mae: 0.6094 - val_loss: 0.7500 - val_mae: 0.6518
+Epoch 3/15
+22371/22371 - 68s - loss: 0.5980 - mae: 0.5891 - val_loss: 0.7884 - val_mae: 0.6543
+Epoch 4/15
+22371/22371 - 57s - loss: 0.5774 - mae: 0.5745 - val_loss: 0.7621 - val_mae: 0.6407
+Epoch 5/15
+22371/22371 - 57s - loss: 0.5618 - mae: 0.5629 - val_loss: 0.7530 - val_mae: 0.6555
+Epoch 6/15
+22371/22371 - 57s - loss: 0.5515 - mae: 0.5550 - val_loss: 0.7748 - val_mae: 0.6300
+Epoch 7/15
+22371/22371 - 57s - loss: 0.5423 - mae: 0.5482 - val_loss: 0.7436 - val_mae: 0.6256
+Epoch 8/15
+22371/22371 - 58s - loss: 0.5315 - mae: 0.5404 - val_loss: 0.7570 - val_mae: 0.6220
+Epoch 9/15
+22371/22371 - 68s - loss: 0.5275 - mae: 0.5356 - val_loss: 0.7322 - val_mae: 0.6071
+Epoch 10/15
+22371/22371 - 57s - loss: 0.5222 - mae: 0.5315 - val_loss: 0.7602 - val_mae: 0.6135
+Epoch 11/15
+22371/22371 - 58s - loss: 0.5179 - mae: 0.5276 - val_loss: 0.7591 - val_mae: 0.6407
+Epoch 12/15
+22371/22371 - 67s - loss: 0.5121 - mae: 0.5239 - val_loss: 0.6990 - val_mae: 0.6111
+Epoch 13/15
+22371/22371 - 68s - loss: 0.5067 - mae: 0.5203 - val_loss: 0.7378 - val_mae: 0.6026
+Epoch 14/15
+22371/22371 - 68s - loss: 0.5022 - mae: 0.5158 - val_loss: 0.7114 - val_mae: 0.5780
+Epoch 15/15
+22371/22371 - 67s - loss: 0.4966 - mae: 0.5123 - val_loss: 0.7204 - val_mae: 0.6026
+
+
+RMSE: 0.6611396243901658 MAE: 0.37016494207932493 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.659814
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.         0.86105095 0.5593267  0.58583921 0.42919255 0.        ]
+Recall: 	 [0.         0.70819857 0.75320449 0.64548029 0.0994674  0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.         0.77718048 0.64194647 0.61421534 0.1615052  0.        ]
+
+Params for Embeddings:  {'order': 'first'}  with embedding type:  line
+/usr/local/lib/python3.7/dist-packages/tensorflow/python/keras/engine/training.py:1940: UserWarning: `Model.fit_generator` is deprecated and will be removed in a future version. Please use `Model.fit`, which supports generators.
+  warnings.warn('`Model.fit_generator` is deprecated and '
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 89s - loss: 0.3367 - mae: 0.4283 - val_loss: 0.4799 - val_mae: 0.5217
+Epoch 2/15
+22371/22371 - 58s - loss: 0.2361 - mae: 0.3540 - val_loss: 0.4854 - val_mae: 0.5399
+Epoch 3/15
+22371/22371 - 68s - loss: 0.2204 - mae: 0.3413 - val_loss: 0.5239 - val_mae: 0.5629
+Epoch 4/15
+22371/22371 - 68s - loss: 0.2097 - mae: 0.3327 - val_loss: 0.5356 - val_mae: 0.5766
+Epoch 5/15
+22371/22371 - 69s - loss: 0.1992 - mae: 0.3230 - val_loss: 0.5264 - val_mae: 0.5771
+Epoch 6/15
+22371/22371 - 68s - loss: 0.1938 - mae: 0.3181 - val_loss: 0.5886 - val_mae: 0.6115
+Epoch 7/15
+22371/22371 - 60s - loss: 0.1900 - mae: 0.3146 - val_loss: 0.5819 - val_mae: 0.6103
+Epoch 8/15
+22371/22371 - 69s - loss: 0.1869 - mae: 0.3121 - val_loss: 0.6035 - val_mae: 0.6191
+Epoch 9/15
+22371/22371 - 58s - loss: 0.1850 - mae: 0.3102 - val_loss: 0.6470 - val_mae: 0.6433
+Epoch 10/15
+22371/22371 - 59s - loss: 0.1832 - mae: 0.3084 - val_loss: 0.6421 - val_mae: 0.6370
+Epoch 11/15
+22371/22371 - 58s - loss: 0.1807 - mae: 0.3062 - val_loss: 0.5934 - val_mae: 0.6148
+Epoch 12/15
+22371/22371 - 68s - loss: 0.1788 - mae: 0.3048 - val_loss: 0.7246 - val_mae: 0.6816
+Epoch 13/15
+22371/22371 - 68s - loss: 0.1782 - mae: 0.3036 - val_loss: 0.6616 - val_mae: 0.6520
+Epoch 14/15
+22371/22371 - 68s - loss: 0.1763 - mae: 0.3023 - val_loss: 0.7291 - val_mae: 0.6907
+Epoch 15/15
+22371/22371 - 68s - loss: 0.1750 - mae: 0.3010 - val_loss: 0.7141 - val_mae: 0.6772
+
+
+RMSE: 0.860952470768447 MAE: 0.6280710687592064 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.426613
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.97160742 0.35405607 0.45149083 0.55675079 0.6031746  0.        ]
+Recall: 	 [0.10186097 0.61115076 0.71094113 0.58111415 0.1817095  0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.18439084 0.44836325 0.55226183 0.56867164 0.27928342 0.        ]
+Params for Embeddings:  {'order': 'second'}  with embedding type:  line
+/usr/local/lib/python3.7/dist-packages/tensorflow/python/keras/engine/training.py:1940: UserWarning: `Model.fit_generator` is deprecated and will be removed in a future version. Please use `Model.fit`, which supports generators.
+  warnings.warn('`Model.fit_generator` is deprecated and '
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 69s - loss: 0.3044 - mae: 0.3943 - val_loss: 0.3470 - val_mae: 0.4084
+Epoch 2/15
+22371/22371 - 58s - loss: 0.2286 - mae: 0.3299 - val_loss: 0.3359 - val_mae: 0.3877
+Epoch 3/15
+22371/22371 - 68s - loss: 0.2138 - mae: 0.3146 - val_loss: 0.3359 - val_mae: 0.4023
+Epoch 4/15
+22371/22371 - 60s - loss: 0.2058 - mae: 0.3054 - val_loss: 0.3372 - val_mae: 0.3935
+Epoch 5/15
+22371/22371 - 68s - loss: 0.2000 - mae: 0.2990 - val_loss: 0.3472 - val_mae: 0.4022
+Epoch 6/15
+22371/22371 - 58s - loss: 0.1956 - mae: 0.2936 - val_loss: 0.3288 - val_mae: 0.3842
+Epoch 7/15
+22371/22371 - 68s - loss: 0.1918 - mae: 0.2900 - val_loss: 0.3487 - val_mae: 0.3923
+Epoch 8/15
+22371/22371 - 68s - loss: 0.1878 - mae: 0.2850 - val_loss: 0.3361 - val_mae: 0.3929
+Epoch 9/15
+22371/22371 - 59s - loss: 0.1861 - mae: 0.2828 - val_loss: 0.3567 - val_mae: 0.3983
+Epoch 10/15
+22371/22371 - 59s - loss: 0.1838 - mae: 0.2796 - val_loss: 0.3335 - val_mae: 0.3787
+Epoch 11/15
+22371/22371 - 68s - loss: 0.1818 - mae: 0.2774 - val_loss: 0.3586 - val_mae: 0.4192
+Epoch 12/15
+22371/22371 - 68s - loss: 0.1806 - mae: 0.2755 - val_loss: 0.3411 - val_mae: 0.3960
+Epoch 13/15
+22371/22371 - 58s - loss: 0.1787 - mae: 0.2733 - val_loss: 0.3507 - val_mae: 0.4000
+Epoch 14/15
+22371/22371 - 59s - loss: 0.1785 - mae: 0.2726 - val_loss: 0.3722 - val_mae: 0.4077
+Epoch 15/15
+22371/22371 - 58s - loss: 0.1773 - mae: 0.2713 - val_loss: 0.3547 - val_mae: 0.3998
+
+
+RMSE: 0.5601371794684528 MAE: 0.28607539689756134 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.726191
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.91912276 0.58037159 0.81291938 0.79768892 0.80731707 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Recall: 	 [0.61981437 0.89086186 0.72699996 0.62602562 0.39569635 0.        ]
+F1 score: 	 [0.74036227 0.70285367 0.76756274 0.70150819 0.53108704 0.        ]
+Params for Embeddings:  {'p': 0.1, 'q': 0.1}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   18.6s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 114s - loss: 0.1643 - mae: 0.2961 - val_loss: 0.1252 - val_mae: 0.2394
+Epoch 2/15
+22371/22371 - 80s - loss: 0.1122 - mae: 0.2444 - val_loss: 0.1299 - val_mae: 0.2342
+Epoch 3/15
+22371/22371 - 85s - loss: 0.1056 - mae: 0.2360 - val_loss: 0.1317 - val_mae: 0.2246
+Epoch 4/15
+22371/22371 - 80s - loss: 0.1027 - mae: 0.2319 - val_loss: 0.1423 - val_mae: 0.2374
+Epoch 5/15
+22371/22371 - 86s - loss: 0.0999 - mae: 0.2286 - val_loss: 0.1403 - val_mae: 0.2364
+Epoch 6/15
+22371/22371 - 86s - loss: 0.0982 - mae: 0.2268 - val_loss: 0.1282 - val_mae: 0.2262
+Epoch 7/15
+22371/22371 - 79s - loss: 0.0969 - mae: 0.2250 - val_loss: 0.1381 - val_mae: 0.2358
+Epoch 8/15
+22371/22371 - 79s - loss: 0.0958 - mae: 0.2236 - val_loss: 0.1480 - val_mae: 0.2496
+Epoch 9/15
+22371/22371 - 80s - loss: 0.0950 - mae: 0.2227 - val_loss: 0.1371 - val_mae: 0.2314
+Epoch 10/15
+22371/22371 - 86s - loss: 0.0940 - mae: 0.2217 - val_loss: 0.1269 - val_mae: 0.2219
+Epoch 11/15
+22371/22371 - 86s - loss: 0.0935 - mae: 0.2209 - val_loss: 0.1435 - val_mae: 0.2392
+Epoch 12/15
+22371/22371 - 80s - loss: 0.0925 - mae: 0.2198 - val_loss: 0.1294 - val_mae: 0.2331
+Epoch 13/15
+22371/22371 - 81s - loss: 0.0922 - mae: 0.2192 - val_loss: 0.1432 - val_mae: 0.2414
+Epoch 14/15
+22371/22371 - 86s - loss: 0.0917 - mae: 0.2187 - val_loss: 0.1298 - val_mae: 0.2348
+Epoch 15/15
+22371/22371 - 86s - loss: 0.0915 - mae: 0.2183 - val_loss: 0.1401 - val_mae: 0.2323
+
+
+RMSE: 0.23920814161749204 MAE: 0.05672952772372657 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.943516
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.9757348  0.93130328 0.92353669 0.87718002 0.98612593 0.        ]
+Recall: 	 [0.98582009 0.94818579 0.9141698  0.85432561 0.55230126 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.98075152 0.93966871 0.91882938 0.86560198 0.70804598 0.        ]
+Params for Embeddings:  {'p': 0.1, 'q': 0.75}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   18.0s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 86s - loss: 0.1840 - mae: 0.3101 - val_loss: 0.1300 - val_mae: 0.2556
+Epoch 2/15
+22371/22371 - 80s - loss: 0.1293 - mae: 0.2559 - val_loss: 0.1183 - val_mae: 0.2519
+Epoch 3/15
+22371/22371 - 80s - loss: 0.1200 - mae: 0.2442 - val_loss: 0.1419 - val_mae: 0.2774
+Epoch 4/15
+22371/22371 - 80s - loss: 0.1160 - mae: 0.2385 - val_loss: 0.1391 - val_mae: 0.2687
+Epoch 5/15
+22371/22371 - 80s - loss: 0.1130 - mae: 0.2342 - val_loss: 0.1379 - val_mae: 0.2711
+Epoch 6/15
+22371/22371 - 80s - loss: 0.1103 - mae: 0.2311 - val_loss: 0.1320 - val_mae: 0.2678
+Epoch 7/15
+22371/22371 - 80s - loss: 0.1092 - mae: 0.2295 - val_loss: 0.1418 - val_mae: 0.2700
+Epoch 8/15
+22371/22371 - 86s - loss: 0.1079 - mae: 0.2276 - val_loss: 0.1464 - val_mae: 0.2659
+Epoch 9/15
+22371/22371 - 85s - loss: 0.1063 - mae: 0.2257 - val_loss: 0.1426 - val_mae: 0.2604
+Epoch 10/15
+22371/22371 - 79s - loss: 0.1057 - mae: 0.2243 - val_loss: 0.1420 - val_mae: 0.2652
+Epoch 11/15
+22371/22371 - 81s - loss: 0.1049 - mae: 0.2234 - val_loss: 0.1675 - val_mae: 0.2963
+Epoch 12/15
+22371/22371 - 86s - loss: 0.1039 - mae: 0.2222 - val_loss: 0.1538 - val_mae: 0.2804
+Epoch 13/15
+22371/22371 - 80s - loss: 0.1036 - mae: 0.2215 - val_loss: 0.1488 - val_mae: 0.2721
+Epoch 14/15
+22371/22371 - 85s - loss: 0.1032 - mae: 0.2209 - val_loss: 0.1618 - val_mae: 0.2884
+Epoch 15/15
+22371/22371 - 86s - loss: 0.1026 - mae: 0.2201 - val_loss: 0.1572 - val_mae: 0.2743
+
+
+RMSE: 0.28448966359416333 MAE: 0.07771554310862172 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.923894
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.         0.99642384 0.85957617 0.92556707 0.88559258 0.82688766
+ 0.        ]
+Recall: 	 [0.         0.93385834 0.97964544 0.87600896 0.83791565 0.53676031
+ 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.         0.96412713 0.91569159 0.90010639 0.86109467 0.65096049
+ 0.        ]
+Params for Embeddings:  {'p': 0.1, 'q': 1}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   18.2s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 87s - loss: 0.1749 - mae: 0.3055 - val_loss: 0.1295 - val_mae: 0.2632
+Epoch 2/15
+22371/22371 - 86s - loss: 0.1214 - mae: 0.2517 - val_loss: 0.1400 - val_mae: 0.2789
+Epoch 3/15
+22371/22371 - 80s - loss: 0.1127 - mae: 0.2396 - val_loss: 0.1361 - val_mae: 0.2556
+Epoch 4/15
+22371/22371 - 86s - loss: 0.1085 - mae: 0.2332 - val_loss: 0.1382 - val_mae: 0.2661
+Epoch 5/15
+22371/22371 - 79s - loss: 0.1063 - mae: 0.2295 - val_loss: 0.1387 - val_mae: 0.2677
+Epoch 6/15
+22371/22371 - 79s - loss: 0.1033 - mae: 0.2259 - val_loss: 0.1401 - val_mae: 0.2592
+Epoch 7/15
+22371/22371 - 85s - loss: 0.1018 - mae: 0.2226 - val_loss: 0.1395 - val_mae: 0.2607
+Epoch 8/15
+22371/22371 - 79s - loss: 0.1006 - mae: 0.2207 - val_loss: 0.1453 - val_mae: 0.2637
+Epoch 9/15
+22371/22371 - 80s - loss: 0.0999 - mae: 0.2193 - val_loss: 0.1370 - val_mae: 0.2542
+Epoch 10/15
+22371/22371 - 85s - loss: 0.0989 - mae: 0.2176 - val_loss: 0.1383 - val_mae: 0.2598
+Epoch 11/15
+22371/22371 - 79s - loss: 0.0980 - mae: 0.2165 - val_loss: 0.1499 - val_mae: 0.2737
+Epoch 12/15
+22371/22371 - 80s - loss: 0.0977 - mae: 0.2156 - val_loss: 0.1419 - val_mae: 0.2638
+Epoch 13/15
+22371/22371 - 80s - loss: 0.0968 - mae: 0.2145 - val_loss: 0.1369 - val_mae: 0.2573
+Epoch 14/15
+22371/22371 - 80s - loss: 0.0964 - mae: 0.2138 - val_loss: 0.1510 - val_mae: 0.2748
+Epoch 15/15
+22371/22371 - 86s - loss: 0.0951 - mae: 0.2125 - val_loss: 0.1473 - val_mae: 0.2579
+
+
+RMSE: 0.2900916997696051 MAE: 0.08400771063303569 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.916065
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.99754819 0.86382109 0.89482557 0.8381653  0.68507891 0.        ]
+Recall: 	 [0.97267145 0.95269634 0.80754765 0.83647618 0.57083084 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.98495277 0.90608455 0.84894931 0.83731988 0.6227584  0.        ]
+Params for Embeddings:  {'p': 0.1, 'q': 1.25}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   18.9s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 86s - loss: 0.1818 - mae: 0.3137 - val_loss: 0.1328 - val_mae: 0.2725
+Epoch 2/15
+22371/22371 - 86s - loss: 0.1230 - mae: 0.2559 - val_loss: 0.1143 - val_mae: 0.2519
+Epoch 3/15
+22371/22371 - 86s - loss: 0.1129 - mae: 0.2429 - val_loss: 0.1195 - val_mae: 0.2584
+Epoch 4/15
+22371/22371 - 86s - loss: 0.1085 - mae: 0.2373 - val_loss: 0.1241 - val_mae: 0.2664
+Epoch 5/15
+22371/22371 - 79s - loss: 0.1060 - mae: 0.2341 - val_loss: 0.1302 - val_mae: 0.2608
+Epoch 6/15
+22371/22371 - 80s - loss: 0.1037 - mae: 0.2311 - val_loss: 0.1235 - val_mae: 0.2541
+Epoch 7/15
+22371/22371 - 79s - loss: 0.1016 - mae: 0.2284 - val_loss: 0.1182 - val_mae: 0.2515
+Epoch 8/15
+22371/22371 - 86s - loss: 0.1005 - mae: 0.2266 - val_loss: 0.1361 - val_mae: 0.2658
+Epoch 9/15
+22371/22371 - 80s - loss: 0.0992 - mae: 0.2254 - val_loss: 0.1329 - val_mae: 0.2552
+Epoch 10/15
+22371/22371 - 87s - loss: 0.0986 - mae: 0.2242 - val_loss: 0.1237 - val_mae: 0.2512
+Epoch 11/15
+22371/22371 - 86s - loss: 0.0982 - mae: 0.2235 - val_loss: 0.1373 - val_mae: 0.2704
+Epoch 12/15
+22371/22371 - 80s - loss: 0.0970 - mae: 0.2224 - val_loss: 0.1206 - val_mae: 0.2463
+Epoch 13/15
+22371/22371 - 80s - loss: 0.0968 - mae: 0.2221 - val_loss: 0.1234 - val_mae: 0.2464
+Epoch 14/15
+22371/22371 - 81s - loss: 0.0962 - mae: 0.2215 - val_loss: 0.1220 - val_mae: 0.2502
+Epoch 15/15
+22371/22371 - 86s - loss: 0.0960 - mae: 0.2210 - val_loss: 0.1355 - val_mae: 0.2605
+
+
+RMSE: 0.3253854953722818 MAE: 0.10223862954409063 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.899580
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.993717   0.83530378 0.88451613 0.82051672 0.77843137 0.        ]
+Recall: 	 [0.88224816 0.95806332 0.92701686 0.77717    0.23729827 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.93467087 0.89248198 0.90526794 0.79825534 0.36371965 0.        ]
+Params for Embeddings:  {'p': 0.1, 'q': 2}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   18.2s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 86s - loss: 0.1777 - mae: 0.3097 - val_loss: 0.1725 - val_mae: 0.2894
+Epoch 2/15
+22371/22371 - 86s - loss: 0.1219 - mae: 0.2540 - val_loss: 0.1597 - val_mae: 0.2758
+Epoch 3/15
+22371/22371 - 86s - loss: 0.1129 - mae: 0.2423 - val_loss: 0.1423 - val_mae: 0.2704
+Epoch 4/15
+22371/22371 - 86s - loss: 0.1080 - mae: 0.2354 - val_loss: 0.1472 - val_mae: 0.2799
+Epoch 5/15
+22371/22371 - 86s - loss: 0.1055 - mae: 0.2317 - val_loss: 0.1474 - val_mae: 0.2808
+Epoch 6/15
+22371/22371 - 80s - loss: 0.1037 - mae: 0.2290 - val_loss: 0.1475 - val_mae: 0.2684
+Epoch 7/15
+22371/22371 - 80s - loss: 0.1019 - mae: 0.2268 - val_loss: 0.1513 - val_mae: 0.2780
+Epoch 8/15
+22371/22371 - 80s - loss: 0.1011 - mae: 0.2251 - val_loss: 0.1648 - val_mae: 0.2804
+Epoch 9/15
+22371/22371 - 79s - loss: 0.0994 - mae: 0.2232 - val_loss: 0.1579 - val_mae: 0.2784
+Epoch 10/15
+22371/22371 - 85s - loss: 0.0990 - mae: 0.2225 - val_loss: 0.1578 - val_mae: 0.2798
+Epoch 11/15
+22371/22371 - 80s - loss: 0.0986 - mae: 0.2216 - val_loss: 0.1689 - val_mae: 0.2816
+Epoch 12/15
+22371/22371 - 80s - loss: 0.0973 - mae: 0.2204 - val_loss: 0.1635 - val_mae: 0.2840
+Epoch 13/15
+22371/22371 - 85s - loss: 0.0974 - mae: 0.2199 - val_loss: 0.1675 - val_mae: 0.2880
+Epoch 14/15
+22371/22371 - 85s - loss: 0.0966 - mae: 0.2192 - val_loss: 0.1732 - val_mae: 0.2912
+Epoch 15/15
+22371/22371 - 86s - loss: 0.0959 - mae: 0.2183 - val_loss: 0.1707 - val_mae: 0.2933
+
+
+RMSE: 0.3007564704661715 MAE: 0.0901089308770845 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.910064
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98636968 0.87732465 0.84301084 0.86602723 0.80986476 0.        ]
+Recall: 	 [0.97356209 0.90770504 0.850991   0.80581546 0.60848775 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.97992404 0.89225632 0.84698212 0.83483707 0.69488055 0.        ]
+Params for Embeddings:  {'p': 0.75, 'q': 0.1}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   18.1s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 87s - loss: 0.1759 - mae: 0.3029 - val_loss: 0.1806 - val_mae: 0.3029
+Epoch 2/15
+22371/22371 - 86s - loss: 0.1250 - mae: 0.2507 - val_loss: 0.1699 - val_mae: 0.2964
+Epoch 3/15
+22371/22371 - 80s - loss: 0.1167 - mae: 0.2400 - val_loss: 0.1608 - val_mae: 0.2862
+Epoch 4/15
+22371/22371 - 80s - loss: 0.1129 - mae: 0.2349 - val_loss: 0.1510 - val_mae: 0.2775
+Epoch 5/15
+22371/22371 - 86s - loss: 0.1107 - mae: 0.2318 - val_loss: 0.1583 - val_mae: 0.2851
+Epoch 6/15
+22371/22371 - 80s - loss: 0.1087 - mae: 0.2289 - val_loss: 0.1568 - val_mae: 0.2787
+Epoch 7/15
+22371/22371 - 86s - loss: 0.1070 - mae: 0.2272 - val_loss: 0.1473 - val_mae: 0.2688
+Epoch 8/15
+22371/22371 - 80s - loss: 0.1059 - mae: 0.2256 - val_loss: 0.1560 - val_mae: 0.2773
+Epoch 9/15
+22371/22371 - 86s - loss: 0.1047 - mae: 0.2237 - val_loss: 0.1639 - val_mae: 0.2828
+Epoch 10/15
+22371/22371 - 80s - loss: 0.1037 - mae: 0.2224 - val_loss: 0.1567 - val_mae: 0.2772
+Epoch 11/15
+22371/22371 - 86s - loss: 0.1027 - mae: 0.2211 - val_loss: 0.1450 - val_mae: 0.2658
+Epoch 12/15
+22371/22371 - 86s - loss: 0.1019 - mae: 0.2201 - val_loss: 0.1487 - val_mae: 0.2715
+Epoch 13/15
+22371/22371 - 86s - loss: 0.1018 - mae: 0.2196 - val_loss: 0.1708 - val_mae: 0.2898
+Epoch 14/15
+22371/22371 - 80s - loss: 0.1007 - mae: 0.2186 - val_loss: 0.1869 - val_mae: 0.3062
+Epoch 15/15
+22371/22371 - 80s - loss: 0.1003 - mae: 0.2179 - val_loss: 0.1677 - val_mae: 0.2846
+
+
+RMSE: 0.2902013841605062 MAE: 0.08296204695484552 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.917656
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.         0.99719371 0.86202538 0.88990407 0.86065089 0.99877301]
+Recall: 	 [0.         0.92445976 0.95403808 0.90554875 0.83748381 0.48655111]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.         0.95945026 0.90570077 0.89765825 0.84890932 0.65434084]
+Params for Embeddings:  {'p': 0.75, 'q': 0.75}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   18.3s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 86s - loss: 0.1801 - mae: 0.3094 - val_loss: 0.1289 - val_mae: 0.2621
+Epoch 2/15
+22371/22371 - 80s - loss: 0.1213 - mae: 0.2521 - val_loss: 0.1148 - val_mae: 0.2401
+Epoch 3/15
+22371/22371 - 86s - loss: 0.1127 - mae: 0.2404 - val_loss: 0.1169 - val_mae: 0.2469
+Epoch 4/15
+22371/22371 - 86s - loss: 0.1079 - mae: 0.2347 - val_loss: 0.1284 - val_mae: 0.2580
+Epoch 5/15
+22371/22371 - 86s - loss: 0.1054 - mae: 0.2314 - val_loss: 0.1247 - val_mae: 0.2435
+Epoch 6/15
+22371/22371 - 87s - loss: 0.1033 - mae: 0.2286 - val_loss: 0.1218 - val_mae: 0.2430
+Epoch 7/15
+22371/22371 - 80s - loss: 0.1018 - mae: 0.2267 - val_loss: 0.1295 - val_mae: 0.2567
+Epoch 8/15
+22371/22371 - 80s - loss: 0.1014 - mae: 0.2254 - val_loss: 0.1412 - val_mae: 0.2629
+Epoch 9/15
+22371/22371 - 80s - loss: 0.1005 - mae: 0.2246 - val_loss: 0.1216 - val_mae: 0.2378
+Epoch 10/15
+22371/22371 - 80s - loss: 0.0999 - mae: 0.2235 - val_loss: 0.1233 - val_mae: 0.2402
+Epoch 11/15
+22371/22371 - 80s - loss: 0.0992 - mae: 0.2226 - val_loss: 0.1403 - val_mae: 0.2666
+Epoch 12/15
+22371/22371 - 86s - loss: 0.0984 - mae: 0.2217 - val_loss: 0.1348 - val_mae: 0.2530
+Epoch 13/15
+22371/22371 - 86s - loss: 0.0980 - mae: 0.2209 - val_loss: 0.1252 - val_mae: 0.2377
+Epoch 14/15
+22371/22371 - 86s - loss: 0.0970 - mae: 0.2199 - val_loss: 0.1311 - val_mae: 0.2417
+Epoch 15/15
+22371/22371 - 86s - loss: 0.0971 - mae: 0.2197 - val_loss: 0.1527 - val_mae: 0.2735
+
+
+RMSE: 0.2586762120422659 MAE: 0.06676789903435232 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.933305
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.99474635 0.91543646 0.88684978 0.81592414 1.         0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Recall: 	 [0.9674448  0.95772075 0.92511516 0.78033684 0.30245069 0.        ]
+F1 score: 	 [0.98090565 0.93610134 0.90557842 0.79773379 0.46443323 0.        ]
+Params for Embeddings:  {'p': 0.75, 'q': 1}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   19.4s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 86s - loss: 0.1703 - mae: 0.3012 - val_loss: 0.1239 - val_mae: 0.2528
+Epoch 2/15
+22371/22371 - 86s - loss: 0.1163 - mae: 0.2495 - val_loss: 0.1191 - val_mae: 0.2496
+Epoch 3/15
+22371/22371 - 80s - loss: 0.1087 - mae: 0.2402 - val_loss: 0.1206 - val_mae: 0.2438
+Epoch 4/15
+22371/22371 - 80s - loss: 0.1057 - mae: 0.2362 - val_loss: 0.1313 - val_mae: 0.2460
+Epoch 5/15
+22371/22371 - 85s - loss: 0.1029 - mae: 0.2323 - val_loss: 0.1251 - val_mae: 0.2476
+Epoch 6/15
+22371/22371 - 80s - loss: 0.1005 - mae: 0.2292 - val_loss: 0.1358 - val_mae: 0.2428
+Epoch 7/15
+22371/22371 - 80s - loss: 0.0991 - mae: 0.2275 - val_loss: 0.1449 - val_mae: 0.2578
+Epoch 8/15
+22371/22371 - 86s - loss: 0.0979 - mae: 0.2262 - val_loss: 0.1519 - val_mae: 0.2566
+Epoch 9/15
+22371/22371 - 86s - loss: 0.0974 - mae: 0.2251 - val_loss: 0.1420 - val_mae: 0.2507
+Epoch 10/15
+22371/22371 - 86s - loss: 0.0964 - mae: 0.2241 - val_loss: 0.1313 - val_mae: 0.2421
+Epoch 11/15
+22371/22371 - 86s - loss: 0.0957 - mae: 0.2230 - val_loss: 0.1433 - val_mae: 0.2473
+Epoch 12/15
+22371/22371 - 79s - loss: 0.0949 - mae: 0.2221 - val_loss: 0.1372 - val_mae: 0.2500
+Epoch 13/15
+22371/22371 - 85s - loss: 0.0945 - mae: 0.2215 - val_loss: 0.1391 - val_mae: 0.2443
+Epoch 14/15
+22371/22371 - 79s - loss: 0.0937 - mae: 0.2206 - val_loss: 0.1401 - val_mae: 0.2511
+Epoch 15/15
+22371/22371 - 86s - loss: 0.0939 - mae: 0.2207 - val_loss: 0.1327 - val_mae: 0.2383
+
+
+RMSE: 0.2027292009472055 MAE: 0.04102638709560094 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.959010
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98039171 0.9676753  0.93618693 0.88477712 0.98480663 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Recall: 	 [0.99725777 0.94947044 0.95664117 0.90859364 0.42618051 0.        ]
+F1 score: 	 [0.98875282 0.95848643 0.94630353 0.89652724 0.5949103  0.        ]
+Params for Embeddings:  {'p': 0.75, 'q': 1.25}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   18.8s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 81s - loss: 0.1770 - mae: 0.3066 - val_loss: 0.1134 - val_mae: 0.2452
+Epoch 2/15
+22371/22371 - 80s - loss: 0.1151 - mae: 0.2495 - val_loss: 0.1174 - val_mae: 0.2337
+Epoch 3/15
+22371/22371 - 80s - loss: 0.1070 - mae: 0.2390 - val_loss: 0.1100 - val_mae: 0.2209
+Epoch 4/15
+22371/22371 - 86s - loss: 0.1033 - mae: 0.2337 - val_loss: 0.0933 - val_mae: 0.2096
+Epoch 5/15
+22371/22371 - 86s - loss: 0.1006 - mae: 0.2298 - val_loss: 0.1039 - val_mae: 0.2159
+Epoch 6/15
+22371/22371 - 86s - loss: 0.0982 - mae: 0.2267 - val_loss: 0.0952 - val_mae: 0.2023
+Epoch 7/15
+22371/22371 - 81s - loss: 0.0972 - mae: 0.2250 - val_loss: 0.1123 - val_mae: 0.2198
+Epoch 8/15
+22371/22371 - 86s - loss: 0.0960 - mae: 0.2231 - val_loss: 0.1133 - val_mae: 0.2275
+Epoch 9/15
+22371/22371 - 81s - loss: 0.0950 - mae: 0.2222 - val_loss: 0.0993 - val_mae: 0.2005
+Epoch 10/15
+22371/22371 - 80s - loss: 0.0947 - mae: 0.2216 - val_loss: 0.1057 - val_mae: 0.2144
+Epoch 11/15
+22371/22371 - 81s - loss: 0.0938 - mae: 0.2203 - val_loss: 0.1234 - val_mae: 0.2307
+Epoch 12/15
+22371/22371 - 86s - loss: 0.0934 - mae: 0.2197 - val_loss: 0.1063 - val_mae: 0.2090
+Epoch 13/15
+22371/22371 - 80s - loss: 0.0928 - mae: 0.2189 - val_loss: 0.1135 - val_mae: 0.2235
+Epoch 14/15
+22371/22371 - 86s - loss: 0.0924 - mae: 0.2187 - val_loss: 0.1076 - val_mae: 0.2133
+Epoch 15/15
+22371/22371 - 80s - loss: 0.0921 - mae: 0.2179 - val_loss: 0.1153 - val_mae: 0.2226
+
+
+RMSE: 0.237108276903372 MAE: 0.05400170943279565 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.947108
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98332598 0.95488    0.89260393 0.87635379 0.94392523]
+Recall: 	 [0.99242957 0.93705216 0.9363986  0.83863538 0.60370592]
+F1 score: 	 [0.9878568  0.94588208 0.91397694 0.85707981 0.73641998]
+Params for Embeddings:  {'p': 0.75, 'q': 2}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   16.1s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 101s - loss: 0.1850 - mae: 0.3135 - val_loss: 0.0524 - val_mae: 0.1627
+Epoch 2/15
+22371/22371 - 70s - loss: 0.1253 - mae: 0.2577 - val_loss: 0.0447 - val_mae: 0.1461
+Epoch 3/15
+22371/22371 - 61s - loss: 0.1168 - mae: 0.2479 - val_loss: 0.0319 - val_mae: 0.1190
+Epoch 4/15
+22371/22371 - 60s - loss: 0.1121 - mae: 0.2426 - val_loss: 0.0316 - val_mae: 0.1194
+Epoch 5/15
+22371/22371 - 60s - loss: 0.1091 - mae: 0.2385 - val_loss: 0.0799 - val_mae: 0.1681
+Epoch 6/15
+22371/22371 - 69s - loss: 0.1072 - mae: 0.2359 - val_loss: 0.0320 - val_mae: 0.1222
+Epoch 7/15
+22371/22371 - 60s - loss: 0.1057 - mae: 0.2345 - val_loss: 0.0372 - val_mae: 0.1375
+Epoch 8/15
+22371/22371 - 69s - loss: 0.1045 - mae: 0.2327 - val_loss: 0.0265 - val_mae: 0.1049
+Epoch 9/15
+22371/22371 - 70s - loss: 0.1035 - mae: 0.2313 - val_loss: 0.0253 - val_mae: 0.0976
+Epoch 10/15
+22371/22371 - 70s - loss: 0.1023 - mae: 0.2303 - val_loss: 0.0380 - val_mae: 0.1325
+Epoch 11/15
+22371/22371 - 60s - loss: 0.1013 - mae: 0.2289 - val_loss: 0.0482 - val_mae: 0.1512
+Epoch 12/15
+22371/22371 - 69s - loss: 0.1014 - mae: 0.2287 - val_loss: 0.0244 - val_mae: 0.1002
+Epoch 13/15
+22371/22371 - 71s - loss: 0.1004 - mae: 0.2276 - val_loss: 0.0287 - val_mae: 0.1091
+Epoch 14/15
+22371/22371 - 69s - loss: 0.1001 - mae: 0.2271 - val_loss: 0.0330 - val_mae: 0.1311
+Epoch 15/15
+22371/22371 - 70s - loss: 0.0997 - mae: 0.2265 - val_loss: 0.0288 - val_mae: 0.1263
+
+
+RMSE: 0.20498169286053938 MAE: 0.041981123497426755 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.958037
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98631662 0.95610197 0.92108549 0.92453356 0.94907749 0.        ]
+Recall: 	 [0.99676557 0.93576751 0.93521532 0.95580826 0.76867902 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.99151357 0.94582546 0.92809663 0.93991082 0.84940555 0.        ]
+Params for Embeddings:  {'p': 1, 'q': 0.1}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   15.6s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 60s - loss: 0.1895 - mae: 0.3170 - val_loss: 0.0463 - val_mae: 0.1551
+Epoch 2/15
+22371/22371 - 60s - loss: 0.1285 - mae: 0.2622 - val_loss: 0.0494 - val_mae: 0.1547
+Epoch 3/15
+22371/22371 - 70s - loss: 0.1189 - mae: 0.2502 - val_loss: 0.0343 - val_mae: 0.1286
+Epoch 4/15
+22371/22371 - 69s - loss: 0.1134 - mae: 0.2432 - val_loss: 0.0402 - val_mae: 0.1444
+Epoch 5/15
+22371/22371 - 60s - loss: 0.1111 - mae: 0.2399 - val_loss: 0.0325 - val_mae: 0.1306
+Epoch 6/15
+22371/22371 - 70s - loss: 0.1085 - mae: 0.2369 - val_loss: 0.0285 - val_mae: 0.1153
+Epoch 7/15
+22371/22371 - 59s - loss: 0.1066 - mae: 0.2345 - val_loss: 0.0411 - val_mae: 0.1400
+Epoch 8/15
+22371/22371 - 60s - loss: 0.1048 - mae: 0.2328 - val_loss: 0.0392 - val_mae: 0.1485
+Epoch 9/15
+22371/22371 - 70s - loss: 0.1047 - mae: 0.2322 - val_loss: 0.0276 - val_mae: 0.1099
+Epoch 10/15
+22371/22371 - 61s - loss: 0.1038 - mae: 0.2311 - val_loss: 0.0259 - val_mae: 0.1048
+Epoch 11/15
+22371/22371 - 68s - loss: 0.1027 - mae: 0.2301 - val_loss: 0.0325 - val_mae: 0.1209
+Epoch 12/15
+22371/22371 - 68s - loss: 0.1022 - mae: 0.2293 - val_loss: 0.0264 - val_mae: 0.1115
+Epoch 13/15
+22371/22371 - 69s - loss: 0.1016 - mae: 0.2287 - val_loss: 0.0335 - val_mae: 0.1314
+Epoch 14/15
+22371/22371 - 69s - loss: 0.1003 - mae: 0.2273 - val_loss: 0.0294 - val_mae: 0.1236
+Epoch 15/15
+22371/22371 - 69s - loss: 0.1001 - mae: 0.2269 - val_loss: 0.0395 - val_mae: 0.1405
+
+
+RMSE: 0.2579017306272529 MAE: 0.06496753896233792 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.935805
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.97849191 0.93912772 0.88828473 0.80779142 0.99456522]
+Recall: 	 [0.99910936 0.94296155 0.91129612 0.76709371 0.21876868]
+F1 score: 	 [0.98869316 0.94104073 0.8996433  0.78691672 0.35864772]
+Params for Embeddings:  {'p': 1, 'q': 0.75}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   15.7s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 60s - loss: 0.1825 - mae: 0.3115 - val_loss: 0.0456 - val_mae: 0.1344
+Epoch 2/15
+22371/22371 - 60s - loss: 0.1267 - mae: 0.2563 - val_loss: 0.0467 - val_mae: 0.1510
+Epoch 3/15
+22371/22371 - 70s - loss: 0.1178 - mae: 0.2447 - val_loss: 0.0563 - val_mae: 0.1684
+Epoch 4/15
+22371/22371 - 70s - loss: 0.1129 - mae: 0.2383 - val_loss: 0.0316 - val_mae: 0.1232
+Epoch 5/15
+22371/22371 - 70s - loss: 0.1105 - mae: 0.2347 - val_loss: 0.0412 - val_mae: 0.1513
+Epoch 6/15
+22371/22371 - 60s - loss: 0.1086 - mae: 0.2322 - val_loss: 0.0476 - val_mae: 0.1476
+Epoch 7/15
+22371/22371 - 60s - loss: 0.1074 - mae: 0.2303 - val_loss: 0.0378 - val_mae: 0.1378
+Epoch 8/15
+22371/22371 - 62s - loss: 0.1053 - mae: 0.2282 - val_loss: 0.0462 - val_mae: 0.1548
+Epoch 9/15
+22371/22371 - 69s - loss: 0.1054 - mae: 0.2276 - val_loss: 0.0355 - val_mae: 0.1285
+Epoch 10/15
+22371/22371 - 60s - loss: 0.1040 - mae: 0.2262 - val_loss: 0.0280 - val_mae: 0.1138
+Epoch 11/15
+22371/22371 - 59s - loss: 0.1033 - mae: 0.2251 - val_loss: 0.0511 - val_mae: 0.1618
+Epoch 12/15
+22371/22371 - 61s - loss: 0.1032 - mae: 0.2250 - val_loss: 0.0304 - val_mae: 0.1201
+Epoch 13/15
+22371/22371 - 62s - loss: 0.1032 - mae: 0.2244 - val_loss: 0.0348 - val_mae: 0.1313
+Epoch 14/15
+22371/22371 - 69s - loss: 0.1022 - mae: 0.2234 - val_loss: 0.0291 - val_mae: 0.1195
+Epoch 15/15
+22371/22371 - 59s - loss: 0.1020 - mae: 0.2232 - val_loss: 0.0442 - val_mae: 0.1481
+
+
+RMSE: 0.27317396602208155 MAE: 0.07453308843586899 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.925512
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98862725 0.86198541 0.93454625 0.8852576  0.97101449]
+Recall: 	 [0.92499883 0.96477205 0.90085788 0.89290341 0.60071727]
+F1 score: 	 [0.95575521 0.91048697 0.91739289 0.88906407 0.7422452 ]
+Params for Embeddings:  {'p': 1, 'q': 1}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    9.2s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 62s - loss: 0.1819 - mae: 0.3126 - val_loss: 0.0500 - val_mae: 0.1687
+Epoch 2/15
+22371/22371 - 69s - loss: 0.1267 - mae: 0.2599 - val_loss: 0.0429 - val_mae: 0.1490
+Epoch 3/15
+22371/22371 - 60s - loss: 0.1192 - mae: 0.2504 - val_loss: 0.0446 - val_mae: 0.1540
+Epoch 4/15
+22371/22371 - 60s - loss: 0.1144 - mae: 0.2443 - val_loss: 0.0348 - val_mae: 0.1314
+Epoch 5/15
+22371/22371 - 70s - loss: 0.1111 - mae: 0.2400 - val_loss: 0.0338 - val_mae: 0.1242
+Epoch 6/15
+22371/22371 - 61s - loss: 0.1089 - mae: 0.2374 - val_loss: 0.0430 - val_mae: 0.1434
+Epoch 7/15
+22371/22371 - 60s - loss: 0.1078 - mae: 0.2353 - val_loss: 0.0408 - val_mae: 0.1430
+Epoch 8/15
+22371/22371 - 69s - loss: 0.1070 - mae: 0.2341 - val_loss: 0.0505 - val_mae: 0.1587
+Epoch 9/15
+22371/22371 - 69s - loss: 0.1057 - mae: 0.2326 - val_loss: 0.0325 - val_mae: 0.1222
+Epoch 10/15
+22371/22371 - 69s - loss: 0.1043 - mae: 0.2311 - val_loss: 0.0283 - val_mae: 0.1136
+Epoch 11/15
+22371/22371 - 69s - loss: 0.1051 - mae: 0.2315 - val_loss: 0.0291 - val_mae: 0.1168
+Epoch 12/15
+22371/22371 - 69s - loss: 0.1034 - mae: 0.2297 - val_loss: 0.0340 - val_mae: 0.1300
+Epoch 13/15
+22371/22371 - 59s - loss: 0.1026 - mae: 0.2286 - val_loss: 0.0328 - val_mae: 0.1248
+Epoch 14/15
+22371/22371 - 60s - loss: 0.1028 - mae: 0.2285 - val_loss: 0.0304 - val_mae: 0.1190
+Epoch 15/15
+22371/22371 - 70s - loss: 0.1020 - mae: 0.2276 - val_loss: 0.0387 - val_mae: 0.1338
+
+
+RMSE: 0.28560612673132685 MAE: 0.0798614268308207 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.920993
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98472132 0.90961459 0.86075631 0.77682811 1.        ]
+Recall: 	 [0.99547649 0.94664421 0.86861345 0.70649201 0.11595935]
+F1 score: 	 [0.9900697  0.92776006 0.86466703 0.73999246 0.20782003]
+Params for Embeddings:  {'p': 1, 'q': 1.25}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   15.8s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 60s - loss: 0.1776 - mae: 0.3093 - val_loss: 0.0463 - val_mae: 0.1410
+Epoch 2/15
+22371/22371 - 60s - loss: 0.1278 - mae: 0.2586 - val_loss: 0.0515 - val_mae: 0.1691
+Epoch 3/15
+22371/22371 - 60s - loss: 0.1200 - mae: 0.2488 - val_loss: 0.0468 - val_mae: 0.1457
+Epoch 4/15
+22371/22371 - 70s - loss: 0.1152 - mae: 0.2425 - val_loss: 0.0349 - val_mae: 0.1252
+Epoch 5/15
+22371/22371 - 60s - loss: 0.1114 - mae: 0.2382 - val_loss: 0.0431 - val_mae: 0.1487
+Epoch 6/15
+22371/22371 - 68s - loss: 0.1093 - mae: 0.2349 - val_loss: 0.0409 - val_mae: 0.1404
+Epoch 7/15
+22371/22371 - 69s - loss: 0.1078 - mae: 0.2328 - val_loss: 0.0446 - val_mae: 0.1476
+Epoch 8/15
+22371/22371 - 60s - loss: 0.1055 - mae: 0.2301 - val_loss: 0.0326 - val_mae: 0.1222
+Epoch 9/15
+22371/22371 - 60s - loss: 0.1048 - mae: 0.2291 - val_loss: 0.0239 - val_mae: 0.1001
+Epoch 10/15
+22371/22371 - 70s - loss: 0.1042 - mae: 0.2279 - val_loss: 0.0260 - val_mae: 0.1049
+Epoch 11/15
+22371/22371 - 69s - loss: 0.1028 - mae: 0.2264 - val_loss: 0.0307 - val_mae: 0.1178
+Epoch 12/15
+22371/22371 - 70s - loss: 0.1017 - mae: 0.2251 - val_loss: 0.0307 - val_mae: 0.1165
+Epoch 13/15
+22371/22371 - 71s - loss: 0.1016 - mae: 0.2244 - val_loss: 0.0274 - val_mae: 0.1137
+Epoch 14/15
+22371/22371 - 69s - loss: 0.1013 - mae: 0.2237 - val_loss: 0.0435 - val_mae: 0.1494
+Epoch 15/15
+22371/22371 - 60s - loss: 0.1005 - mae: 0.2226 - val_loss: 0.0362 - val_mae: 0.1276
+
+
+RMSE: 0.27789302944884053 MAE: 0.07622433577624615 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.924276
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98315258 0.92281607 0.84022289 0.85705159 1.        ]
+Recall: 	 [0.99435147 0.9089326  0.89849132 0.77241975 0.45367603]
+F1 score: 	 [0.98872032 0.91582172 0.86838075 0.81253786 0.62417763]
+Params for Embeddings:  {'p': 1, 'q': 2}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   14.8s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 61s - loss: 0.1821 - mae: 0.3131 - val_loss: 0.0548 - val_mae: 0.1503
+Epoch 2/15
+22371/22371 - 68s - loss: 0.1262 - mae: 0.2596 - val_loss: 0.0795 - val_mae: 0.1988
+Epoch 3/15
+22371/22371 - 68s - loss: 0.1186 - mae: 0.2502 - val_loss: 0.0517 - val_mae: 0.1514
+Epoch 4/15
+22371/22371 - 60s - loss: 0.1145 - mae: 0.2450 - val_loss: 0.0354 - val_mae: 0.1265
+Epoch 5/15
+22371/22371 - 60s - loss: 0.1122 - mae: 0.2418 - val_loss: 0.0413 - val_mae: 0.1317
+Epoch 6/15
+22371/22371 - 71s - loss: 0.1097 - mae: 0.2392 - val_loss: 0.0326 - val_mae: 0.1199
+Epoch 7/15
+22371/22371 - 60s - loss: 0.1083 - mae: 0.2373 - val_loss: 0.0377 - val_mae: 0.1284
+Epoch 8/15
+22371/22371 - 69s - loss: 0.1066 - mae: 0.2353 - val_loss: 0.0255 - val_mae: 0.1039
+Epoch 9/15
+22371/22371 - 69s - loss: 0.1064 - mae: 0.2343 - val_loss: 0.0513 - val_mae: 0.1311
+Epoch 10/15
+22371/22371 - 69s - loss: 0.1049 - mae: 0.2326 - val_loss: 0.0312 - val_mae: 0.1205
+Epoch 11/15
+22371/22371 - 60s - loss: 0.1035 - mae: 0.2312 - val_loss: 0.0262 - val_mae: 0.1054
+Epoch 12/15
+22371/22371 - 60s - loss: 0.1034 - mae: 0.2306 - val_loss: 0.0286 - val_mae: 0.1192
+Epoch 13/15
+22371/22371 - 59s - loss: 0.1022 - mae: 0.2293 - val_loss: 0.0299 - val_mae: 0.1181
+Epoch 14/15
+22371/22371 - 70s - loss: 0.1020 - mae: 0.2286 - val_loss: 0.0372 - val_mae: 0.1321
+Epoch 15/15
+22371/22371 - 69s - loss: 0.1016 - mae: 0.2282 - val_loss: 0.0337 - val_mae: 0.1233
+
+
+RMSE: 0.2578135741623197 MAE: 0.0664132826565313 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.933614
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.9933646  0.93335938 0.86355813 0.79960219 0.97684211 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Recall: 	 [0.99299208 0.95480887 0.91180324 0.69440046 0.27734608 0.        ]
+F1 score: 	 [0.9931783  0.94396229 0.88702516 0.74329738 0.4320298  0.        ]
+Params for Embeddings:  {'p': 1.25, 'q': 0.1}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   14.2s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 70s - loss: 0.1839 - mae: 0.3123 - val_loss: 0.0568 - val_mae: 0.1756
+Epoch 2/15
+22371/22371 - 60s - loss: 0.1278 - mae: 0.2577 - val_loss: 0.0453 - val_mae: 0.1525
+Epoch 3/15
+22371/22371 - 70s - loss: 0.1199 - mae: 0.2468 - val_loss: 0.0561 - val_mae: 0.1728
+Epoch 4/15
+22371/22371 - 71s - loss: 0.1150 - mae: 0.2403 - val_loss: 0.0421 - val_mae: 0.1434
+Epoch 5/15
+22371/22371 - 70s - loss: 0.1125 - mae: 0.2360 - val_loss: 0.0391 - val_mae: 0.1379
+Epoch 6/15
+22371/22371 - 70s - loss: 0.1105 - mae: 0.2328 - val_loss: 0.0517 - val_mae: 0.1667
+Epoch 7/15
+22371/22371 - 60s - loss: 0.1094 - mae: 0.2310 - val_loss: 0.0447 - val_mae: 0.1525
+Epoch 8/15
+22371/22371 - 60s - loss: 0.1072 - mae: 0.2288 - val_loss: 0.0660 - val_mae: 0.1925
+Epoch 9/15
+22371/22371 - 61s - loss: 0.1066 - mae: 0.2277 - val_loss: 0.0713 - val_mae: 0.2002
+Epoch 10/15
+22371/22371 - 60s - loss: 0.1056 - mae: 0.2262 - val_loss: 0.0384 - val_mae: 0.1357
+Epoch 11/15
+22371/22371 - 60s - loss: 0.1048 - mae: 0.2251 - val_loss: 0.0492 - val_mae: 0.1590
+Epoch 12/15
+22371/22371 - 70s - loss: 0.1041 - mae: 0.2247 - val_loss: 0.0378 - val_mae: 0.1459
+Epoch 13/15
+22371/22371 - 70s - loss: 0.1044 - mae: 0.2244 - val_loss: 0.0363 - val_mae: 0.1321
+Epoch 14/15
+22371/22371 - 70s - loss: 0.1034 - mae: 0.2232 - val_loss: 0.0490 - val_mae: 0.1600
+Epoch 15/15
+22371/22371 - 59s - loss: 0.1030 - mae: 0.2227 - val_loss: 0.0359 - val_mae: 0.1342
+
+
+RMSE: 0.21320071635561044 MAE: 0.0452908763570896 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.954791
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98925916 0.94286674 0.93693038 0.87063228 0.93583416]
+Recall: 	 [0.98867951 0.96203146 0.92536872 0.90384339 0.56664674]
+F1 score: 	 [0.98896925 0.95235269 0.93111366 0.88692704 0.70588235]
+Params for Embeddings:  {'p': 1.25, 'q': 0.75}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   14.6s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 70s - loss: 0.1748 - mae: 0.3073 - val_loss: 0.0416 - val_mae: 0.1397
+Epoch 2/15
+22371/22371 - 69s - loss: 0.1245 - mae: 0.2581 - val_loss: 0.0430 - val_mae: 0.1327
+Epoch 3/15
+22371/22371 - 60s - loss: 0.1163 - mae: 0.2478 - val_loss: 0.0601 - val_mae: 0.1660
+Epoch 4/15
+22371/22371 - 59s - loss: 0.1129 - mae: 0.2424 - val_loss: 0.0437 - val_mae: 0.1445
+Epoch 5/15
+22371/22371 - 70s - loss: 0.1098 - mae: 0.2386 - val_loss: 0.0389 - val_mae: 0.1216
+Epoch 6/15
+22371/22371 - 60s - loss: 0.1079 - mae: 0.2361 - val_loss: 0.0304 - val_mae: 0.1104
+Epoch 7/15
+22371/22371 - 71s - loss: 0.1060 - mae: 0.2334 - val_loss: 0.0358 - val_mae: 0.1286
+Epoch 8/15
+22371/22371 - 70s - loss: 0.1050 - mae: 0.2317 - val_loss: 0.0301 - val_mae: 0.1195
+Epoch 9/15
+22371/22371 - 70s - loss: 0.1037 - mae: 0.2300 - val_loss: 0.0306 - val_mae: 0.1161
+Epoch 10/15
+22371/22371 - 60s - loss: 0.1027 - mae: 0.2287 - val_loss: 0.0235 - val_mae: 0.0990
+Epoch 11/15
+22371/22371 - 70s - loss: 0.1024 - mae: 0.2278 - val_loss: 0.0318 - val_mae: 0.1264
+Epoch 12/15
+22371/22371 - 68s - loss: 0.1016 - mae: 0.2268 - val_loss: 0.0284 - val_mae: 0.1129
+Epoch 13/15
+22371/22371 - 69s - loss: 0.1011 - mae: 0.2261 - val_loss: 0.0283 - val_mae: 0.1213
+Epoch 14/15
+22371/22371 - 59s - loss: 0.1002 - mae: 0.2250 - val_loss: 0.0320 - val_mae: 0.1189
+Epoch 15/15
+22371/22371 - 68s - loss: 0.1001 - mae: 0.2244 - val_loss: 0.0316 - val_mae: 0.1246
+
+
+RMSE: 0.24467635512712935 MAE: 0.05952099510811253 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.940652
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98701785 0.90815296 0.92092691 0.89275117 0.94454545 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Recall: 	 [0.9889842  0.94984156 0.87165617 0.90945732 0.62104005 0.        ]
+F1 score: 	 [0.98800005 0.92852957 0.89561442 0.90102681 0.74936891 0.        ]
+Params for Embeddings:  {'p': 1.25, 'q': 1}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   16.1s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 60s - loss: 0.1893 - mae: 0.3196 - val_loss: 0.0530 - val_mae: 0.1707
+Epoch 2/15
+22371/22371 - 69s - loss: 0.1271 - mae: 0.2596 - val_loss: 0.0373 - val_mae: 0.1371
+Epoch 3/15
+22371/22371 - 59s - loss: 0.1187 - mae: 0.2486 - val_loss: 0.0496 - val_mae: 0.1633
+Epoch 4/15
+22371/22371 - 62s - loss: 0.1138 - mae: 0.2424 - val_loss: 0.0448 - val_mae: 0.1530
+Epoch 5/15
+22371/22371 - 61s - loss: 0.1087 - mae: 0.2366 - val_loss: 0.0415 - val_mae: 0.1437
+Epoch 6/15
+22371/22371 - 59s - loss: 0.1066 - mae: 0.2336 - val_loss: 0.0297 - val_mae: 0.1198
+Epoch 7/15
+22371/22371 - 68s - loss: 0.1054 - mae: 0.2319 - val_loss: 0.0462 - val_mae: 0.1571
+Epoch 8/15
+22371/22371 - 69s - loss: 0.1045 - mae: 0.2305 - val_loss: 0.0325 - val_mae: 0.1262
+Epoch 9/15
+22371/22371 - 70s - loss: 0.1042 - mae: 0.2298 - val_loss: 0.0377 - val_mae: 0.1397
+Epoch 10/15
+22371/22371 - 70s - loss: 0.1032 - mae: 0.2288 - val_loss: 0.0357 - val_mae: 0.1316
+Epoch 11/15
+22371/22371 - 70s - loss: 0.1026 - mae: 0.2279 - val_loss: 0.0318 - val_mae: 0.1264
+Epoch 12/15
+22371/22371 - 69s - loss: 0.1015 - mae: 0.2266 - val_loss: 0.0410 - val_mae: 0.1396
+Epoch 13/15
+22371/22371 - 59s - loss: 0.1009 - mae: 0.2258 - val_loss: 0.0332 - val_mae: 0.1327
+Epoch 14/15
+22371/22371 - 71s - loss: 0.1008 - mae: 0.2256 - val_loss: 0.0323 - val_mae: 0.1309
+Epoch 15/15
+22371/22371 - 69s - loss: 0.1002 - mae: 0.2248 - val_loss: 0.0352 - val_mae: 0.1275
+
+
+RMSE: 0.2560795808220155 MAE: 0.06526759897434033 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.934887
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98358483 0.94657351 0.85557227 0.86168762 0.99876543]
+Recall: 	 [0.99149205 0.90890405 0.93728606 0.81877069 0.48356246]
+F1 score: 	 [0.98752261 0.9273564  0.89456701 0.83968113 0.65163109]
+Params for Embeddings:  {'p': 1.25, 'q': 1.25}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   15.6s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 72s - loss: 0.1770 - mae: 0.3088 - val_loss: 0.0558 - val_mae: 0.1692
+Epoch 2/15
+22371/22371 - 69s - loss: 0.1222 - mae: 0.2557 - val_loss: 0.0458 - val_mae: 0.1483
+Epoch 3/15
+22371/22371 - 60s - loss: 0.1147 - mae: 0.2456 - val_loss: 0.0294 - val_mae: 0.1174
+Epoch 4/15
+22371/22371 - 60s - loss: 0.1101 - mae: 0.2398 - val_loss: 0.0324 - val_mae: 0.1144
+Epoch 5/15
+22371/22371 - 69s - loss: 0.1075 - mae: 0.2361 - val_loss: 0.0296 - val_mae: 0.1096
+Epoch 6/15
+22371/22371 - 69s - loss: 0.1053 - mae: 0.2334 - val_loss: 0.0338 - val_mae: 0.1289
+Epoch 7/15
+22371/22371 - 70s - loss: 0.1042 - mae: 0.2320 - val_loss: 0.0459 - val_mae: 0.1465
+Epoch 8/15
+22371/22371 - 60s - loss: 0.1029 - mae: 0.2301 - val_loss: 0.0252 - val_mae: 0.1079
+Epoch 9/15
+22371/22371 - 69s - loss: 0.1022 - mae: 0.2292 - val_loss: 0.0265 - val_mae: 0.1046
+Epoch 10/15
+22371/22371 - 69s - loss: 0.1012 - mae: 0.2279 - val_loss: 0.0211 - val_mae: 0.0884
+Epoch 11/15
+22371/22371 - 71s - loss: 0.1006 - mae: 0.2270 - val_loss: 0.0271 - val_mae: 0.1002
+Epoch 12/15
+22371/22371 - 70s - loss: 0.1001 - mae: 0.2262 - val_loss: 0.0247 - val_mae: 0.1025
+Epoch 13/15
+22371/22371 - 70s - loss: 0.1000 - mae: 0.2258 - val_loss: 0.0207 - val_mae: 0.0906
+Epoch 14/15
+22371/22371 - 60s - loss: 0.0994 - mae: 0.2251 - val_loss: 0.0336 - val_mae: 0.1231
+Epoch 15/15
+22371/22371 - 70s - loss: 0.0987 - mae: 0.2244 - val_loss: 0.0301 - val_mae: 0.1229
+
+
+RMSE: 0.18753845071807518 MAE: 0.035134299587190165 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.964884
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.9893008  0.95539613 0.94239409 0.938653   0.97093426]
+Recall: 	 [0.98823419 0.96186017 0.94852724 0.92284439 0.83861327]
+F1 score: 	 [0.98876721 0.95861726 0.94545072 0.93068157 0.89993586]
+Params for Embeddings:  {'p': 1.25, 'q': 2}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   15.6s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 70s - loss: 0.1821 - mae: 0.3126 - val_loss: 0.0467 - val_mae: 0.1545
+Epoch 2/15
+22371/22371 - 60s - loss: 0.1258 - mae: 0.2585 - val_loss: 0.0676 - val_mae: 0.1939
+Epoch 3/15
+22371/22371 - 60s - loss: 0.1177 - mae: 0.2482 - val_loss: 0.0449 - val_mae: 0.1442
+Epoch 4/15
+22371/22371 - 69s - loss: 0.1137 - mae: 0.2423 - val_loss: 0.0391 - val_mae: 0.1432
+Epoch 5/15
+22371/22371 - 69s - loss: 0.1106 - mae: 0.2380 - val_loss: 0.0458 - val_mae: 0.1619
+Epoch 6/15
+22371/22371 - 60s - loss: 0.1084 - mae: 0.2349 - val_loss: 0.0480 - val_mae: 0.1646
+Epoch 7/15
+22371/22371 - 60s - loss: 0.1069 - mae: 0.2330 - val_loss: 0.0404 - val_mae: 0.1516
+Epoch 8/15
+22371/22371 - 60s - loss: 0.1055 - mae: 0.2312 - val_loss: 0.0424 - val_mae: 0.1458
+Epoch 9/15
+22371/22371 - 62s - loss: 0.1051 - mae: 0.2303 - val_loss: 0.0308 - val_mae: 0.1233
+Epoch 10/15
+22371/22371 - 69s - loss: 0.1040 - mae: 0.2288 - val_loss: 0.0287 - val_mae: 0.1172
+Epoch 11/15
+22371/22371 - 69s - loss: 0.1031 - mae: 0.2274 - val_loss: 0.0433 - val_mae: 0.1604
+Epoch 12/15
+22371/22371 - 69s - loss: 0.1023 - mae: 0.2263 - val_loss: 0.0291 - val_mae: 0.1227
+Epoch 13/15
+22371/22371 - 60s - loss: 0.1012 - mae: 0.2251 - val_loss: 0.0290 - val_mae: 0.1172
+Epoch 14/15
+22371/22371 - 70s - loss: 0.1004 - mae: 0.2243 - val_loss: 0.0333 - val_mae: 0.1340
+Epoch 15/15
+22371/22371 - 70s - loss: 0.1007 - mae: 0.2241 - val_loss: 0.0267 - val_mae: 0.1164
+
+
+RMSE: 0.25886947035240776 MAE: 0.06670424994089727 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.933450
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.         0.98124105 0.94494043 0.8579743  0.87455197 0.96761134
+ 0.        ]
+Recall: 	 [0.         0.99549993 0.90345143 0.9282424  0.84295379 0.42857143
+ 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.         0.98831906 0.9237303  0.89172621 0.85846222 0.5940348
+ 0.        ]
+Params for Embeddings:  {'p': 2, 'q': 0.1}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   16.3s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 69s - loss: 0.1831 - mae: 0.3136 - val_loss: 0.0553 - val_mae: 0.1758
+Epoch 2/15
+22371/22371 - 70s - loss: 0.1270 - mae: 0.2593 - val_loss: 0.0518 - val_mae: 0.1728
+Epoch 3/15
+22371/22371 - 70s - loss: 0.1190 - mae: 0.2491 - val_loss: 0.0693 - val_mae: 0.1915
+Epoch 4/15
+22371/22371 - 70s - loss: 0.1147 - mae: 0.2432 - val_loss: 0.0390 - val_mae: 0.1412
+Epoch 5/15
+22371/22371 - 70s - loss: 0.1115 - mae: 0.2386 - val_loss: 0.0343 - val_mae: 0.1255
+Epoch 6/15
+22371/22371 - 61s - loss: 0.1092 - mae: 0.2350 - val_loss: 0.0423 - val_mae: 0.1471
+Epoch 7/15
+22371/22371 - 60s - loss: 0.1081 - mae: 0.2332 - val_loss: 0.0363 - val_mae: 0.1344
+Epoch 8/15
+22371/22371 - 59s - loss: 0.1064 - mae: 0.2310 - val_loss: 0.0379 - val_mae: 0.1396
+Epoch 9/15
+22371/22371 - 69s - loss: 0.1058 - mae: 0.2298 - val_loss: 0.0381 - val_mae: 0.1417
+Epoch 10/15
+22371/22371 - 69s - loss: 0.1049 - mae: 0.2287 - val_loss: 0.0364 - val_mae: 0.1354
+Epoch 11/15
+22371/22371 - 69s - loss: 0.1040 - mae: 0.2278 - val_loss: 0.0280 - val_mae: 0.1160
+Epoch 12/15
+22371/22371 - 60s - loss: 0.1030 - mae: 0.2266 - val_loss: 0.0326 - val_mae: 0.1241
+Epoch 13/15
+22371/22371 - 70s - loss: 0.1025 - mae: 0.2257 - val_loss: 0.0404 - val_mae: 0.1441
+Epoch 14/15
+22371/22371 - 60s - loss: 0.1017 - mae: 0.2247 - val_loss: 0.0496 - val_mae: 0.1673
+Epoch 15/15
+22371/22371 - 70s - loss: 0.1016 - mae: 0.2242 - val_loss: 0.0428 - val_mae: 0.1526
+
+
+RMSE: 0.2614036116579482 MAE: 0.06802269544818054 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.932132
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.99864108 0.92074022 0.87112085 0.78021785 0.95343681 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Recall: 	 [0.98176534 0.97864626 0.90749271 0.63926875 0.25702331 0.        ]
+F1 score: 	 [0.99013131 0.94881056 0.88893488 0.70274547 0.40489642 0.        ]
+Params for Embeddings:  {'p': 2, 'q': 0.75}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   16.3s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 69s - loss: 0.1844 - mae: 0.3119 - val_loss: 0.0500 - val_mae: 0.1489
+Epoch 2/15
+22371/22371 - 69s - loss: 0.1316 - mae: 0.2592 - val_loss: 0.0476 - val_mae: 0.1566
+Epoch 3/15
+22371/22371 - 69s - loss: 0.1236 - mae: 0.2481 - val_loss: 0.0528 - val_mae: 0.1596
+Epoch 4/15
+22371/22371 - 69s - loss: 0.1180 - mae: 0.2407 - val_loss: 0.0361 - val_mae: 0.1312
+Epoch 5/15
+22371/22371 - 69s - loss: 0.1137 - mae: 0.2351 - val_loss: 0.0487 - val_mae: 0.1570
+Epoch 6/15
+22371/22371 - 69s - loss: 0.1122 - mae: 0.2325 - val_loss: 0.0351 - val_mae: 0.1304
+Epoch 7/15
+22371/22371 - 60s - loss: 0.1096 - mae: 0.2296 - val_loss: 0.0408 - val_mae: 0.1432
+Epoch 8/15
+22371/22371 - 70s - loss: 0.1086 - mae: 0.2282 - val_loss: 0.0501 - val_mae: 0.1636
+Epoch 9/15
+22371/22371 - 60s - loss: 0.1080 - mae: 0.2269 - val_loss: 0.0392 - val_mae: 0.1405
+Epoch 10/15
+22371/22371 - 70s - loss: 0.1065 - mae: 0.2252 - val_loss: 0.0368 - val_mae: 0.1382
+Epoch 11/15
+22371/22371 - 60s - loss: 0.1064 - mae: 0.2247 - val_loss: 0.0420 - val_mae: 0.1476
+Epoch 12/15
+22371/22371 - 70s - loss: 0.1054 - mae: 0.2232 - val_loss: 0.0659 - val_mae: 0.1839
+Epoch 13/15
+22371/22371 - 60s - loss: 0.1048 - mae: 0.2225 - val_loss: 0.0353 - val_mae: 0.1338
+Epoch 14/15
+22371/22371 - 69s - loss: 0.1046 - mae: 0.2219 - val_loss: 0.0344 - val_mae: 0.1295
+Epoch 15/15
+22371/22371 - 69s - loss: 0.1038 - mae: 0.2211 - val_loss: 0.0470 - val_mae: 0.1548
+
+
+RMSE: 0.30066575821242175 MAE: 0.09019985815344887 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.909900
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98908906 0.86212942 0.87716579 0.8337035  1.        ]
+Recall: 	 [0.91360803 0.92648948 0.93280649 0.86454585 0.33233712]
+F1 score: 	 [0.94985136 0.89315151 0.90413091 0.8488446  0.49887842]
+Params for Embeddings:  {'p': 2, 'q': 1}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   15.5s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 60s - loss: 0.1799 - mae: 0.3110 - val_loss: 0.0493 - val_mae: 0.1496
+Epoch 2/15
+22371/22371 - 60s - loss: 0.1276 - mae: 0.2598 - val_loss: 0.0371 - val_mae: 0.1260
+Epoch 3/15
+22371/22371 - 60s - loss: 0.1199 - mae: 0.2493 - val_loss: 0.0367 - val_mae: 0.1349
+Epoch 4/15
+22371/22371 - 70s - loss: 0.1156 - mae: 0.2432 - val_loss: 0.0335 - val_mae: 0.1228
+Epoch 5/15
+22371/22371 - 61s - loss: 0.1128 - mae: 0.2383 - val_loss: 0.0368 - val_mae: 0.1347
+Epoch 6/15
+22371/22371 - 69s - loss: 0.1104 - mae: 0.2352 - val_loss: 0.0267 - val_mae: 0.1091
+Epoch 7/15
+22371/22371 - 69s - loss: 0.1088 - mae: 0.2330 - val_loss: 0.0354 - val_mae: 0.1303
+Epoch 8/15
+22371/22371 - 69s - loss: 0.1072 - mae: 0.2310 - val_loss: 0.0302 - val_mae: 0.1149
+Epoch 9/15
+22371/22371 - 69s - loss: 0.1067 - mae: 0.2299 - val_loss: 0.0365 - val_mae: 0.1341
+Epoch 10/15
+22371/22371 - 69s - loss: 0.1052 - mae: 0.2282 - val_loss: 0.0300 - val_mae: 0.1119
+Epoch 11/15
+22371/22371 - 70s - loss: 0.1049 - mae: 0.2277 - val_loss: 0.0373 - val_mae: 0.1363
+Epoch 12/15
+22371/22371 - 69s - loss: 0.1048 - mae: 0.2271 - val_loss: 0.0274 - val_mae: 0.1042
+Epoch 13/15
+22371/22371 - 59s - loss: 0.1034 - mae: 0.2256 - val_loss: 0.0246 - val_mae: 0.1021
+Epoch 14/15
+22371/22371 - 69s - loss: 0.1035 - mae: 0.2254 - val_loss: 0.0299 - val_mae: 0.1153
+Epoch 15/15
+22371/22371 - 71s - loss: 0.1028 - mae: 0.2247 - val_loss: 0.0321 - val_mae: 0.1205
+
+
+RMSE: 0.26410284682127805 MAE: 0.06915019367509866 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.931150
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.9955844  0.89649407 0.8968059  0.84576013 1.        ]
+Recall: 	 [0.9670698  0.94898513 0.89464565 0.88009213 0.36999402]
+F1 score: 	 [0.98111996 0.92199309 0.89572447 0.86258465 0.54013962]
+Params for Embeddings:  {'p': 2, 'q': 1.25}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   15.1s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 60s - loss: 0.1894 - mae: 0.3189 - val_loss: 0.0590 - val_mae: 0.1805
+Epoch 2/15
+22371/22371 - 70s - loss: 0.1277 - mae: 0.2607 - val_loss: 0.0460 - val_mae: 0.1595
+Epoch 3/15
+22371/22371 - 71s - loss: 0.1188 - mae: 0.2501 - val_loss: 0.0503 - val_mae: 0.1627
+Epoch 4/15
+22371/22371 - 60s - loss: 0.1145 - mae: 0.2445 - val_loss: 0.0378 - val_mae: 0.1379
+Epoch 5/15
+22371/22371 - 69s - loss: 0.1113 - mae: 0.2407 - val_loss: 0.0399 - val_mae: 0.1410
+Epoch 6/15
+22371/22371 - 69s - loss: 0.1096 - mae: 0.2382 - val_loss: 0.0428 - val_mae: 0.1560
+Epoch 7/15
+22371/22371 - 60s - loss: 0.1076 - mae: 0.2355 - val_loss: 0.0529 - val_mae: 0.1634
+Epoch 8/15
+22371/22371 - 70s - loss: 0.1063 - mae: 0.2342 - val_loss: 0.0456 - val_mae: 0.1590
+Epoch 9/15
+22371/22371 - 69s - loss: 0.1051 - mae: 0.2326 - val_loss: 0.0395 - val_mae: 0.1437
+Epoch 10/15
+22371/22371 - 69s - loss: 0.1046 - mae: 0.2319 - val_loss: 0.0336 - val_mae: 0.1266
+Epoch 11/15
+22371/22371 - 69s - loss: 0.1045 - mae: 0.2314 - val_loss: 0.0292 - val_mae: 0.1189
+Epoch 12/15
+22371/22371 - 69s - loss: 0.1027 - mae: 0.2298 - val_loss: 0.0382 - val_mae: 0.1434
+Epoch 13/15
+22371/22371 - 60s - loss: 0.1029 - mae: 0.2296 - val_loss: 0.0400 - val_mae: 0.1419
+Epoch 14/15
+22371/22371 - 70s - loss: 0.1018 - mae: 0.2282 - val_loss: 0.0346 - val_mae: 0.1331
+Epoch 15/15
+22371/22371 - 70s - loss: 0.1014 - mae: 0.2279 - val_loss: 0.0440 - val_mae: 0.1567
+
+
+RMSE: 0.2811460142764635 MAE: 0.07880667042499409 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.921312
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.998933   0.89833188 0.84328526 0.87871581 0.97760358]
+Recall: 	 [0.94353818 0.90859003 0.94894984 0.85101483 0.5218171 ]
+F1 score: 	 [0.97044572 0.90343183 0.89300272 0.86464351 0.68043648]
+Params for Embeddings:  {'p': 2, 'q': 2}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   16.0s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 70s - loss: 0.1790 - mae: 0.3094 - val_loss: 0.0458 - val_mae: 0.1422
+Epoch 2/15
+22371/22371 - 60s - loss: 0.1217 - mae: 0.2549 - val_loss: 0.0776 - val_mae: 0.1809
+Epoch 3/15
+22371/22371 - 60s - loss: 0.1141 - mae: 0.2453 - val_loss: 0.0322 - val_mae: 0.1174
+Epoch 4/15
+22371/22371 - 72s - loss: 0.1092 - mae: 0.2391 - val_loss: 0.0422 - val_mae: 0.1464
+Epoch 5/15
+22371/22371 - 70s - loss: 0.1050 - mae: 0.2343 - val_loss: 0.0273 - val_mae: 0.1064
+Epoch 6/15
+22371/22371 - 69s - loss: 0.1042 - mae: 0.2326 - val_loss: 0.0386 - val_mae: 0.1560
+Epoch 7/15
+22371/22371 - 68s - loss: 0.1019 - mae: 0.2301 - val_loss: 0.0269 - val_mae: 0.1111
+Epoch 8/15
+22371/22371 - 69s - loss: 0.1004 - mae: 0.2283 - val_loss: 0.0296 - val_mae: 0.1203
+Epoch 9/15
+22371/22371 - 69s - loss: 0.0996 - mae: 0.2272 - val_loss: 0.0301 - val_mae: 0.1259
+Epoch 10/15
+22371/22371 - 60s - loss: 0.0993 - mae: 0.2264 - val_loss: 0.0279 - val_mae: 0.1179
+Epoch 11/15
+22371/22371 - 70s - loss: 0.0984 - mae: 0.2253 - val_loss: 0.0291 - val_mae: 0.1180
+Epoch 12/15
+22371/22371 - 60s - loss: 0.0971 - mae: 0.2239 - val_loss: 0.0284 - val_mae: 0.1163
+Epoch 13/15
+22371/22371 - 71s - loss: 0.0974 - mae: 0.2240 - val_loss: 0.0343 - val_mae: 0.1330
+Epoch 14/15
+22371/22371 - 62s - loss: 0.0968 - mae: 0.2233 - val_loss: 0.0257 - val_mae: 0.1077
+Epoch 15/15
+22371/22371 - 68s - loss: 0.0959 - mae: 0.2224 - val_loss: 0.0252 - val_mae: 0.1091
+
+
+RMSE: 0.2854946768908585 MAE: 0.08137991234610559 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.918684
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98143796 0.91066223 0.8476738  0.85029288 0.9508427 ]
+Recall: 	 [0.95917124 0.88289703 0.94092042 0.89851735 0.40466228]
+F1 score: 	 [0.97017685 0.89656472 0.89186645 0.8737402  0.56771488]

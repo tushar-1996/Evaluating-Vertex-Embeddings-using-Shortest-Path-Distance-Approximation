@@ -1,0 +1,34 @@
+shortest path for: Facebook 128
+Compiling Model ... 
+Training model...
+Epoch 1/15
+22371/22371 - 26s - loss: 0.2716 - mae: 0.3847 - val_loss: 0.1366 - val_mae: 0.2768
+Epoch 2/15
+22371/22371 - 25s - loss: 0.1506 - mae: 0.2910 - val_loss: 0.1128 - val_mae: 0.2508
+Epoch 3/15
+22371/22371 - 27s - loss: 0.1314 - mae: 0.2702 - val_loss: 0.1038 - val_mae: 0.2428
+Epoch 4/15
+22371/22371 - 27s - loss: 0.1225 - mae: 0.2593 - val_loss: 0.1031 - val_mae: 0.2413
+Epoch 5/15
+22371/22371 - 40s - loss: 0.1164 - mae: 0.2517 - val_loss: 0.1100 - val_mae: 0.2466
+Epoch 6/15
+22371/22371 - 28s - loss: 0.1120 - mae: 0.2458 - val_loss: 0.0956 - val_mae: 0.2302
+Epoch 7/15
+22371/22371 - 25s - loss: 0.1092 - mae: 0.2418 - val_loss: 0.1012 - val_mae: 0.2386
+Epoch 8/15
+22371/22371 - 28s - loss: 0.1064 - mae: 0.2382 - val_loss: 0.1010 - val_mae: 0.2345
+Epoch 9/15
+22371/22371 - 25s - loss: 0.1046 - mae: 0.2353 - val_loss: 0.1007 - val_mae: 0.2365
+Epoch 10/15
+22371/22371 - 26s - loss: 0.1029 - mae: 0.2331 - val_loss: 0.1035 - val_mae: 0.2352
+Epoch 11/15
+22371/22371 - 23s - loss: 0.1019 - mae: 0.2313 - val_loss: 0.1047 - val_mae: 0.2349
+Epoch 12/15
+22371/22371 - 23s - loss: 0.1006 - mae: 0.2294 - val_loss: 0.1037 - val_mae: 0.2354
+Epoch 13/15
+22371/22371 - 23s - loss: 0.0995 - mae: 0.2278 - val_loss: 0.1101 - val_mae: 0.2415
+Epoch 14/15
+22371/22371 - 22s - loss: 0.0993 - mae: 0.2269 - val_loss: 0.1054 - val_mae: 0.2376
+Epoch 15/15
+22371/22371 - 26s - loss: 0.0987 - mae: 0.2258 - val_loss: 0.1125 - val_mae: 0.2450
+Facebook nodes 4039 train pairs 1022640 test_pairs 109978 concatenation embd_size 128 RMSE 0.29843469503208625 MAE 0.08839040535379804 (paper: 0.118)

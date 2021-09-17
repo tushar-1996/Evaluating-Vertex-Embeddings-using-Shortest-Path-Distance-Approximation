@@ -1,0 +1,51 @@
+Epoch 1/15
+22371/22371 - 49s - loss: 0.2637 - mae: 0.3783 - val_loss: 0.1308 - val_mae: 0.2722
+Epoch 2/15
+22371/22371 - 48s - loss: 0.1466 - mae: 0.2878 - val_loss: 0.1204 - val_mae: 0.2634
+Epoch 3/15
+22371/22371 - 47s - loss: 0.1301 - mae: 0.2689 - val_loss: 0.1168 - val_mae: 0.2561
+Epoch 4/15
+22371/22371 - 49s - loss: 0.1215 - mae: 0.2587 - val_loss: 0.1122 - val_mae: 0.2535
+Epoch 5/15
+22371/22371 - 48s - loss: 0.1171 - mae: 0.2528 - val_loss: 0.1098 - val_mae: 0.2513
+Epoch 6/15
+22371/22371 - 47s - loss: 0.1132 - mae: 0.2474 - val_loss: 0.1119 - val_mae: 0.2550
+Epoch 7/15
+22371/22371 - 48s - loss: 0.1103 - mae: 0.2433 - val_loss: 0.1094 - val_mae: 0.2465
+Epoch 8/15
+22371/22371 - 48s - loss: 0.1076 - mae: 0.2397 - val_loss: 0.1101 - val_mae: 0.2489
+Epoch 9/15
+22371/22371 - 47s - loss: 0.1060 - mae: 0.2370 - val_loss: 0.1196 - val_mae: 0.2547
+Epoch 10/15
+22371/22371 - 48s - loss: 0.1042 - mae: 0.2344 - val_loss: 0.1116 - val_mae: 0.2494
+Epoch 11/15
+22371/22371 - 49s - loss: 0.1029 - mae: 0.2321 - val_loss: 0.1076 - val_mae: 0.2439
+Epoch 12/15
+22371/22371 - 48s - loss: 0.1014 - mae: 0.2297 - val_loss: 0.1142 - val_mae: 0.2523
+Epoch 13/15
+22371/22371 - 47s - loss: 0.1001 - mae: 0.2277 - val_loss: 0.1159 - val_mae: 0.2534
+Epoch 14/15
+22371/22371 - 48s - loss: 0.0993 - mae: 0.2261 - val_loss: 0.1101 - val_mae: 0.2457
+Epoch 15/15
+22371/22371 - 49s - loss: 0.0985 - mae: 0.2247 - val_loss: 0.1135 - val_mae: 0.2485
+
+
+RMSE: 0.28922844648342366 MAE: 0.08358035243412319 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.916456
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.9892032  0.86848241 0.89905598 0.86738141 0.71854305 0.        ]
+Recall: 	 [0.92122533 0.93579605 0.91763513 0.85015114 0.64853556 0.        ]
+F1 score: 	 [0.95400485 0.90088357 0.90825055 0.85867985 0.68174678 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+(0.28922844648342366,
+ 0.08358035243412319,
+ 0.9164560184764226,
+ array([0.9892032 , 0.86848241, 0.89905598, 0.86738141, 0.71854305,
+        0.        ]),
+ array([0.92122533, 0.93579605, 0.91763513, 0.85015114, 0.64853556,
+        0.        ]),
+ array([0.95400485, 0.90088357, 0.90825055, 0.85867985, 0.68174678,
+        0.        ]))

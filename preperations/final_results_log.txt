@@ -1,0 +1,358 @@
+### LANDMARK RUN random ###
+Number of nodes 4039
+Number of edges 88234
+Number of training pairs: 1022640
+Path Lengths in train set:  [2 3 4 5 6]  Size of each length:  [389132 320865 221561  72701  18381]
+Number of testing pairs: 109978
+Path Lengths in test set:  [2 3 4 5 6]  Size of each length:  [42666 35029 23663  6947  1673]
+### EMBEDDING RUN node2vec ###
+#### TRAIN TEST LOOP
+Params for Embeddings:  {}  with embedding type:  node2vec
+Preprocess transition probs...
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   17.6s finished
+Learning embedding vectors...
+Learning embedding vectors done!
+Embedding method:  node2vec Binary operator: avg
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 128) Train y shape: (1022640,) 
+ Test X shape: (109978, 128) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 70s - loss: 0.2703 - mae: 0.3845 - val_loss: 0.0699 - val_mae: 0.1999
+Epoch 2/15
+22371/22371 - 70s - loss: 0.1530 - mae: 0.2935 - val_loss: 0.0539 - val_mae: 0.1685
+Epoch 3/15
+22371/22371 - 69s - loss: 0.1366 - mae: 0.2741 - val_loss: 0.0512 - val_mae: 0.1623
+Epoch 4/15
+22371/22371 - 76s - loss: 0.1275 - mae: 0.2631 - val_loss: 0.0426 - val_mae: 0.1491
+Epoch 5/15
+22371/22371 - 76s - loss: 0.1224 - mae: 0.2559 - val_loss: 0.0340 - val_mae: 0.1279
+Epoch 6/15
+22371/22371 - 76s - loss: 0.1191 - mae: 0.2511 - val_loss: 0.0384 - val_mae: 0.1415
+Epoch 7/15
+22371/22371 - 76s - loss: 0.1153 - mae: 0.2464 - val_loss: 0.0451 - val_mae: 0.1528
+Epoch 8/15
+22371/22371 - 76s - loss: 0.1129 - mae: 0.2434 - val_loss: 0.0356 - val_mae: 0.1338
+Epoch 9/15
+22371/22371 - 76s - loss: 0.1120 - mae: 0.2415 - val_loss: 0.0372 - val_mae: 0.1377
+Epoch 10/15
+22371/22371 - 77s - loss: 0.1100 - mae: 0.2389 - val_loss: 0.0361 - val_mae: 0.1363
+Epoch 11/15
+22371/22371 - 69s - loss: 0.1090 - mae: 0.2372 - val_loss: 0.0344 - val_mae: 0.1323
+Epoch 12/15
+22371/22371 - 76s - loss: 0.1077 - mae: 0.2354 - val_loss: 0.0331 - val_mae: 0.1297
+Epoch 13/15
+22371/22371 - 68s - loss: 0.1068 - mae: 0.2340 - val_loss: 0.0328 - val_mae: 0.1304
+Epoch 14/15
+22371/22371 - 77s - loss: 0.1060 - mae: 0.2329 - val_loss: 0.0349 - val_mae: 0.1350
+Epoch 15/15
+22371/22371 - 76s - loss: 0.1055 - mae: 0.2317 - val_loss: 0.0322 - val_mae: 0.1273
+
+
+RMSE: 0.23958795789609888 MAE: 0.05731146229245849 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.942734
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98623035 0.92371267 0.91627771 0.8666036  1.        ]
+Recall: 	 [0.97196831 0.94124868 0.92917213 0.92298834 0.50209205]
+F1 score: 	 [0.97904739 0.93239823 0.92267987 0.89390771 0.66852368]
+RMSE at length 2: 0.1674266645284583 MAE at length 2: 0.028031687995124923
+RMSE at length 3: 0.24238671649778978 MAE at length 3: 0.05875132033457992
+RMSE at length 4: 0.26613506860456604 MAE at length 4: 0.07082787474115708
+RMSE at length 5: 0.28137317768692033 MAE at length 5: 0.07773139484669642
+RMSE at length 6: 0.7056259276633725 MAE at length 6: 0.497907949790795
+
+Embedding method:  node2vec Binary operator: concat
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 256) Train y shape: (1022640,) 
+ Test X shape: (109978, 256) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 77s - loss: 0.2202 - mae: 0.3381 - val_loss: 0.0542 - val_mae: 0.1621
+Epoch 2/15
+22371/22371 - 77s - loss: 0.1110 - mae: 0.2464 - val_loss: 0.0327 - val_mae: 0.1216
+Epoch 3/15
+22371/22371 - 70s - loss: 0.0920 - mae: 0.2230 - val_loss: 0.0257 - val_mae: 0.1023
+Epoch 4/15
+22371/22371 - 77s - loss: 0.0816 - mae: 0.2079 - val_loss: 0.0228 - val_mae: 0.0926
+Epoch 5/15
+22371/22371 - 70s - loss: 0.0744 - mae: 0.1959 - val_loss: 0.0222 - val_mae: 0.0984
+Epoch 6/15
+22371/22371 - 77s - loss: 0.0692 - mae: 0.1863 - val_loss: 0.0183 - val_mae: 0.0877
+Epoch 7/15
+22371/22371 - 70s - loss: 0.0655 - mae: 0.1790 - val_loss: 0.0161 - val_mae: 0.0736
+Epoch 8/15
+22371/22371 - 70s - loss: 0.0629 - mae: 0.1736 - val_loss: 0.0143 - val_mae: 0.0722
+Epoch 9/15
+22371/22371 - 70s - loss: 0.0605 - mae: 0.1686 - val_loss: 0.0147 - val_mae: 0.0683
+Epoch 10/15
+22371/22371 - 77s - loss: 0.0588 - mae: 0.1647 - val_loss: 0.0136 - val_mae: 0.0628
+Epoch 11/15
+22371/22371 - 77s - loss: 0.0569 - mae: 0.1609 - val_loss: 0.0126 - val_mae: 0.0654
+Epoch 12/15
+22371/22371 - 76s - loss: 0.0559 - mae: 0.1582 - val_loss: 0.0129 - val_mae: 0.0647
+Epoch 13/15
+22371/22371 - 70s - loss: 0.0547 - mae: 0.1555 - val_loss: 0.0132 - val_mae: 0.0670
+Epoch 14/15
+22371/22371 - 77s - loss: 0.0537 - mae: 0.1531 - val_loss: 0.0111 - val_mae: 0.0602
+Epoch 15/15
+22371/22371 - 77s - loss: 0.0529 - mae: 0.1512 - val_loss: 0.0118 - val_mae: 0.0588
+
+
+RMSE: 0.31231024535876667 MAE: 0.09744676207968866 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.902599
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.976513   0.81679351 0.9151435  0.93659985 0.9984127  0.        ]
+Recall: 	 [0.86338068 0.93445431 0.93521532 0.90801785 0.75194262 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.91646867 0.87167128 0.92507054 0.92208741 0.85782475 0.        ]
+RMSE at length 2: 0.36962051103382915 MAE at length 2: 0.136619322176909
+RMSE at length 3: 0.25601892647499497 MAE at length 3: 0.06554569071340889
+RMSE at length 4: 0.2547772854015317 MAE at length 4: 0.06482694501965093
+RMSE at length 5: 0.30328559241841796 MAE at length 5: 0.09198215056859076
+RMSE at length 6: 0.5052030537546389 MAE at length 6: 0.25044829647340106
+
+Embedding method:  node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 86s - loss: 0.1892 - mae: 0.3146 - val_loss: 0.0540 - val_mae: 0.1548
+Epoch 2/15
+22371/22371 - 79s - loss: 0.1322 - mae: 0.2589 - val_loss: 0.0503 - val_mae: 0.1585
+Epoch 3/15
+22371/22371 - 86s - loss: 0.1238 - mae: 0.2482 - val_loss: 0.0631 - val_mae: 0.1810
+Epoch 4/15
+22371/22371 - 85s - loss: 0.1195 - mae: 0.2424 - val_loss: 0.0827 - val_mae: 0.2222
+Epoch 5/15
+22371/22371 - 85s - loss: 0.1165 - mae: 0.2386 - val_loss: 0.0436 - val_mae: 0.1473
+Epoch 6/15
+22371/22371 - 80s - loss: 0.1147 - mae: 0.2364 - val_loss: 0.0408 - val_mae: 0.1442
+Epoch 7/15
+22371/22371 - 80s - loss: 0.1130 - mae: 0.2340 - val_loss: 0.0560 - val_mae: 0.1749
+Epoch 8/15
+22371/22371 - 79s - loss: 0.1114 - mae: 0.2321 - val_loss: 0.0407 - val_mae: 0.1428
+Epoch 9/15
+22371/22371 - 85s - loss: 0.1109 - mae: 0.2309 - val_loss: 0.0439 - val_mae: 0.1524
+Epoch 10/15
+22371/22371 - 79s - loss: 0.1099 - mae: 0.2297 - val_loss: 0.0333 - val_mae: 0.1253
+Epoch 11/15
+22371/22371 - 86s - loss: 0.1096 - mae: 0.2289 - val_loss: 0.0559 - val_mae: 0.1761
+Epoch 12/15
+22371/22371 - 79s - loss: 0.1083 - mae: 0.2275 - val_loss: 0.0391 - val_mae: 0.1410
+Epoch 13/15
+22371/22371 - 85s - loss: 0.1079 - mae: 0.2269 - val_loss: 0.0413 - val_mae: 0.1483
+Epoch 14/15
+22371/22371 - 80s - loss: 0.1074 - mae: 0.2262 - val_loss: 0.0336 - val_mae: 0.1256
+Epoch 15/15
+22371/22371 - 80s - loss: 0.1069 - mae: 0.2255 - val_loss: 0.0379 - val_mae: 0.1436
+
+
+RMSE: 0.2676934562195256 MAE: 0.07056865918638273 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.929977
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98856439 0.89171838 0.90838599 0.86276446 1.        ]
+Recall: 	 [0.94011625 0.94767193 0.93568018 0.88052397 0.42558279]
+F1 score: 	 [0.96373181 0.91884411 0.92183109 0.87155375 0.59706499]
+RMSE at length 2: 0.24471156119718857 MAE at length 2: 0.059883748183565365
+RMSE at length 3: 0.2287532973027131 MAE at length 3: 0.05232807102686345
+RMSE at length 4: 0.25361353315254137 MAE at length 4: 0.0643198241981152
+RMSE at length 5: 0.3536806001071923 MAE at length 5: 0.12134734417734273
+RMSE at length 6: 0.8116014733746981 MAE at length 6: 0.602510460251046
+
+### EMBEDDING RUN harp_node2vec ###
+#### TRAIN TEST LOOP
+Params for Embeddings:  {}  with embedding type:  harp_node2vec
+Embedding method:  harp_node2vec Binary operator: avg
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 128) Train y shape: (1022640,) 
+ Test X shape: (109978, 128) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 77s - loss: 0.2743 - mae: 0.3921 - val_loss: 0.0873 - val_mae: 0.2250
+Epoch 2/15
+22371/22371 - 77s - loss: 0.1733 - mae: 0.3151 - val_loss: 0.0748 - val_mae: 0.1937
+Epoch 3/15
+22371/22371 - 69s - loss: 0.1586 - mae: 0.2997 - val_loss: 0.0830 - val_mae: 0.2026
+Epoch 4/15
+22371/22371 - 69s - loss: 0.1502 - mae: 0.2903 - val_loss: 0.0671 - val_mae: 0.1876
+Epoch 5/15
+22371/22371 - 76s - loss: 0.1454 - mae: 0.2845 - val_loss: 0.0562 - val_mae: 0.1652
+Epoch 6/15
+22371/22371 - 69s - loss: 0.1420 - mae: 0.2808 - val_loss: 0.0586 - val_mae: 0.1681
+Epoch 7/15
+22371/22371 - 77s - loss: 0.1392 - mae: 0.2775 - val_loss: 0.0565 - val_mae: 0.1635
+Epoch 8/15
+22371/22371 - 69s - loss: 0.1375 - mae: 0.2755 - val_loss: 0.0535 - val_mae: 0.1629
+Epoch 9/15
+22371/22371 - 69s - loss: 0.1364 - mae: 0.2737 - val_loss: 0.0548 - val_mae: 0.1651
+Epoch 10/15
+22371/22371 - 76s - loss: 0.1349 - mae: 0.2721 - val_loss: 0.0502 - val_mae: 0.1563
+Epoch 11/15
+22371/22371 - 77s - loss: 0.1337 - mae: 0.2705 - val_loss: 0.0525 - val_mae: 0.1603
+Epoch 12/15
+22371/22371 - 69s - loss: 0.1321 - mae: 0.2689 - val_loss: 0.0498 - val_mae: 0.1534
+Epoch 13/15
+22371/22371 - 69s - loss: 0.1319 - mae: 0.2684 - val_loss: 0.0509 - val_mae: 0.1545
+Epoch 14/15
+22371/22371 - 76s - loss: 0.1307 - mae: 0.2671 - val_loss: 0.0465 - val_mae: 0.1513
+Epoch 15/15
+22371/22371 - 69s - loss: 0.1300 - mae: 0.2663 - val_loss: 0.0520 - val_mae: 0.1580
+
+
+RMSE: 0.24588116246403563 MAE: 0.06020294968084526 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.939924
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98413917 0.9346435  0.89841733 0.85313967 0.81313131 0.        ]
+Recall: 	 [0.99182018 0.93816552 0.91159194 0.83705196 0.48117155 0.        ]
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+F1 score: 	 [0.98796475 0.9364012  0.90495668 0.84501925 0.6045813  0.        ]
+RMSE at length 2: 0.09044233140302285 MAE at length 2: 0.008179815309614213
+RMSE at length 3: 0.24866539767785106 MAE at length 3: 0.06183448000228382
+RMSE at length 4: 0.2973349344107793 MAE at length 4: 0.08840806322106241
+RMSE at length 5: 0.4052697353251531 MAE at length 5: 0.16337987620555636
+RMSE at length 6: 0.7338620420164083 MAE at length 6: 0.525403466826061
+
+Embedding method:  harp_node2vec Binary operator: concat
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 256) Train y shape: (1022640,) 
+ Test X shape: (109978, 256) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 77s - loss: 0.2131 - mae: 0.3328 - val_loss: 0.0539 - val_mae: 0.1591
+Epoch 2/15
+22371/22371 - 76s - loss: 0.1154 - mae: 0.2492 - val_loss: 0.0440 - val_mae: 0.1329
+Epoch 3/15
+22371/22371 - 76s - loss: 0.1004 - mae: 0.2304 - val_loss: 0.0368 - val_mae: 0.1198
+Epoch 4/15
+22371/22371 - 77s - loss: 0.0925 - mae: 0.2206 - val_loss: 0.0312 - val_mae: 0.1135
+Epoch 5/15
+22371/22371 - 69s - loss: 0.0874 - mae: 0.2140 - val_loss: 0.0308 - val_mae: 0.1129
+Epoch 6/15
+22371/22371 - 77s - loss: 0.0837 - mae: 0.2090 - val_loss: 0.0281 - val_mae: 0.1036
+Epoch 7/15
+22371/22371 - 69s - loss: 0.0802 - mae: 0.2039 - val_loss: 0.0252 - val_mae: 0.0949
+Epoch 8/15
+22371/22371 - 76s - loss: 0.0780 - mae: 0.2002 - val_loss: 0.0278 - val_mae: 0.1030
+Epoch 9/15
+22371/22371 - 70s - loss: 0.0762 - mae: 0.1974 - val_loss: 0.0242 - val_mae: 0.0989
+Epoch 10/15
+22371/22371 - 69s - loss: 0.0743 - mae: 0.1945 - val_loss: 0.0240 - val_mae: 0.0943
+Epoch 11/15
+22371/22371 - 76s - loss: 0.0730 - mae: 0.1924 - val_loss: 0.0212 - val_mae: 0.0855
+Epoch 12/15
+22371/22371 - 69s - loss: 0.0717 - mae: 0.1903 - val_loss: 0.0216 - val_mae: 0.0873
+Epoch 13/15
+22371/22371 - 77s - loss: 0.0709 - mae: 0.1888 - val_loss: 0.0214 - val_mae: 0.0848
+Epoch 14/15
+22371/22371 - 69s - loss: 0.0700 - mae: 0.1873 - val_loss: 0.0208 - val_mae: 0.0810
+Epoch 15/15
+22371/22371 - 69s - loss: 0.0692 - mae: 0.1860 - val_loss: 0.0221 - val_mae: 0.0831
+
+
+RMSE: 0.31746463286838866 MAE: 0.09532815654039899 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.907327
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.96158384 0.87317491 0.87768969 0.84935479 0.977813  ]
+Recall: 	 [0.95509305 0.9031374  0.88429193 0.84324169 0.36879857]
+F1 score: 	 [0.95832745 0.88790345 0.88097844 0.8462872  0.53559028]
+RMSE at length 2: 0.21191260385149313 MAE at length 2: 0.04490695167111986
+RMSE at length 3: 0.31122756876659285 MAE at length 3: 0.09686259956036428
+RMSE at length 4: 0.34405007158861606 MAE at length 4: 0.1165955288847568
+RMSE at length 5: 0.44714921579826394 MAE at length 5: 0.171153015690226
+RMSE at length 6: 0.9733446873817485 MAE at length 6: 0.7334130304841602
+
+Embedding method:  harp_node2vec Binary operator: conv
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 2, 128, 1) Train y shape: (1022640,) 
+ Test X shape: (109978, 2, 128, 1) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 81s - loss: 0.2051 - mae: 0.3407 - val_loss: 0.0647 - val_mae: 0.1775
+Epoch 2/15
+22371/22371 - 86s - loss: 0.1527 - mae: 0.2927 - val_loss: 0.0779 - val_mae: 0.1960
+Epoch 3/15
+22371/22371 - 80s - loss: 0.1452 - mae: 0.2837 - val_loss: 0.0742 - val_mae: 0.2104
+Epoch 4/15
+22371/22371 - 86s - loss: 0.1398 - mae: 0.2778 - val_loss: 0.0588 - val_mae: 0.1749
+Epoch 5/15
+22371/22371 - 80s - loss: 0.1368 - mae: 0.2746 - val_loss: 0.0531 - val_mae: 0.1572
+Epoch 6/15
+22371/22371 - 81s - loss: 0.1348 - mae: 0.2718 - val_loss: 0.0599 - val_mae: 0.1864
+Epoch 7/15
+22371/22371 - 81s - loss: 0.1326 - mae: 0.2691 - val_loss: 0.0551 - val_mae: 0.1699
+Epoch 8/15
+22371/22371 - 80s - loss: 0.1304 - mae: 0.2666 - val_loss: 0.0492 - val_mae: 0.1580
+Epoch 9/15
+22371/22371 - 81s - loss: 0.1301 - mae: 0.2657 - val_loss: 0.0429 - val_mae: 0.1397
+Epoch 10/15
+22371/22371 - 86s - loss: 0.1294 - mae: 0.2646 - val_loss: 0.0433 - val_mae: 0.1447
+Epoch 11/15
+22371/22371 - 80s - loss: 0.1278 - mae: 0.2634 - val_loss: 0.0564 - val_mae: 0.1705
+Epoch 12/15
+22371/22371 - 80s - loss: 0.1273 - mae: 0.2625 - val_loss: 0.0382 - val_mae: 0.1286
+Epoch 13/15
+22371/22371 - 86s - loss: 0.1269 - mae: 0.2617 - val_loss: 0.0610 - val_mae: 0.1804
+Epoch 14/15
+22371/22371 - 88s - loss: 0.1263 - mae: 0.2607 - val_loss: 0.0433 - val_mae: 0.1445
+Epoch 15/15
+22371/22371 - 82s - loss: 0.1262 - mae: 0.2604 - val_loss: 0.0507 - val_mae: 0.1606
+
+
+RMSE: 0.2356658235793926 MAE: 0.05542926767171616 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.944625
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.98739247 0.92175652 0.92351671 0.88452431 0.89249493]
+Recall: 	 [0.9765387  0.94738645 0.92156531 0.91406362 0.5260012 ]
+F1 score: 	 [0.98193559 0.93439577 0.92253998 0.89905139 0.66190297]
+RMSE at length 2: 0.1531708330031416 MAE at length 2: 0.023461304082876295
+RMSE at length 3: 0.22937643465245744 MAE at length 3: 0.05261354877387308
+RMSE at length 4: 0.2800619343363054 MAE at length 4: 0.07843468706419304
+RMSE at length 5: 0.29388469932327094 MAE at length 5: 0.08608032244134159
+RMSE at length 6: 0.6949566418207391 MAE at length 6: 0.4769874476987448
+

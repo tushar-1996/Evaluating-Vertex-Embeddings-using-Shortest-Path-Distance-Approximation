@@ -1,0 +1,57 @@
+Configuration: hidden_size = 5000,1000,1000; epochs = 40, rest default
+Params for Embeddings:  {}  with embedding type:  sdne
+Embedded training set size: 1022640
+Embedded test set size: 109978
+Train test split summary: 
+ Train X shape: (1022640, 1000) Train y shape: (1022640,) 
+ Test X shape: (109978, 1000) Test y shape: (109978,)
+
+
+
+
+Epoch 1/15
+22371/22371 - 65s - loss: 0.7193 - mae: 0.6632 - val_loss: 0.9227 - val_mae: 0.7023
+Epoch 2/15
+22371/22371 - 64s - loss: 0.5827 - mae: 0.5717 - val_loss: 0.7910 - val_mae: 0.6784
+Epoch 3/15
+22371/22371 - 63s - loss: 0.5275 - mae: 0.5330 - val_loss: 0.7649 - val_mae: 0.6221
+Epoch 4/15
+22371/22371 - 63s - loss: 0.4985 - mae: 0.5117 - val_loss: 0.7802 - val_mae: 0.6197
+Epoch 5/15
+22371/22371 - 53s - loss: 0.4745 - mae: 0.4938 - val_loss: 0.8003 - val_mae: 0.6367
+Epoch 6/15
+22371/22371 - 63s - loss: 0.4553 - mae: 0.4792 - val_loss: 0.8233 - val_mae: 0.6263
+Epoch 7/15
+22371/22371 - 63s - loss: 0.4403 - mae: 0.4672 - val_loss: 1.0267 - val_mae: 0.7232
+Epoch 8/15
+22371/22371 - 63s - loss: 0.4283 - mae: 0.4575 - val_loss: 0.8056 - val_mae: 0.6030
+Epoch 9/15
+22371/22371 - 53s - loss: 0.4177 - mae: 0.4489 - val_loss: 0.8394 - val_mae: 0.6167
+Epoch 10/15
+22371/22371 - 63s - loss: 0.4127 - mae: 0.4448 - val_loss: 0.8565 - val_mae: 0.6088
+Epoch 11/15
+22371/22371 - 54s - loss: 0.4022 - mae: 0.4363 - val_loss: 0.7948 - val_mae: 0.5924
+Epoch 12/15
+22371/22371 - 53s - loss: 0.3945 - mae: 0.4300 - val_loss: 0.8314 - val_mae: 0.6096
+Epoch 13/15
+22371/22371 - 63s - loss: 0.3889 - mae: 0.4258 - val_loss: 0.8148 - val_mae: 0.5974
+Epoch 14/15
+22371/22371 - 63s - loss: 0.3826 - mae: 0.4207 - val_loss: 0.9538 - val_mae: 0.6499
+Epoch 15/15
+22371/22371 - 64s - loss: 0.3786 - mae: 0.4171 - val_loss: 0.9018 - val_mae: 0.6250
+
+
+RMSE: 0.6107536807561342 MAE: 0.31068031788175815 
+Summary: 
+Nodes: 4039 Edges: 88234 Train size: 1022640 Test size: 109978
+Accuracy: 0.717180
+Paths: 		 [2 3 4 5 6]
+Precision: 	 [0.9072878  0.60670377 0.65776237 0.67730347 0.99148936]
+Recall: 	 [0.7440585  0.80299181 0.65765119 0.46135022 0.13927077]
+F1 score: 	 [0.81760585 0.69118207 0.65770677 0.54884836 0.2442348 ]
+(0.6107536807561342,
+ 0.31068031788175815,
+ 0.7171797995962829,
+ array([0.9072878 , 0.60670377, 0.65776237, 0.67730347, 0.99148936]),
+ array([0.7440585 , 0.80299181, 0.65765119, 0.46135022, 0.13927077]),
+ array([0.81760585, 0.69118207, 0.65770677, 0.54884836, 0.2442348 ]))
