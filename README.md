@@ -1,4 +1,8 @@
 # Shortest Path Distance Approximation
+## Summary
+Addressed the scaling issue of Shortest Path Distance algorithms like Dijkstra, BFS, A*, and Bellman-Ford using deep learning.
+Presented a new convolution operation to approximate any binary operation for creating joint input representations.
+Performed tasks such as node classification, link prediction, node clustering, and community prediction. 
 
 ## Project Structure
 The project structure of our group work is as depicted in the following tree structure.
